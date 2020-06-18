@@ -1,0 +1,39 @@
+/*FONT FAMILY*/
+@font-face {
+font-family: 'Helvetica Neue LT Std 57 Condensed';
+font-style: normal;
+font-weight: normal;
+src: local('Helvetica Neue LT Std 57 Condensed'), url('fonts/HelveticaNeueLTStd-Cn.woff') format('woff');
+}
+@font-face {
+font-family: 'Helvetica Neue LT Std 56 Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Helvetica Neue LT Std 56 Italic'), url('fonts/HelveticaNeueLTStd-It.woff') format('woff');
+}
+@font-face {
+font-family: 'Helvetica Neue LT Std 47 Light Condensed';
+font-style: normal;
+font-weight: normal;
+src: local('Helvetica Neue LT Std 47 Light Condensed'), url('fonts/HelveticaNeueLTStd-LtCn.woff') format('woff');
+}
+@font-face {
+font-family: 'Helvetica Neue LT Std 45 Light';
+font-style: normal;
+font-weight: normal;
+src: local('Helvetica Neue LT Std 45 Light'), url('fonts/HelveticaNeueLTStd Lt.woff') format('woff');
+}
+@font-face {
+font-family: 'Helvetica Neue LT Std 77 Bold Condensed';
+font-style: normal;
+font-weight: normal;
+src: local('Helvetica Neue LT Std 77 Bold Condensed'), url('fonts/HelveticaNeueLTStd-BdCn.woff') format('woff');
+}
+body {
+  font-family: "Helvetica Neue LT Std MdCn", sans-serif;
+}
+:root {
+  --orange : #e7532b;
+  --purple : #af418e;
+  --gray : #f2f2f2;
+}
