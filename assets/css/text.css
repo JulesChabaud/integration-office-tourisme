@@ -1,0 +1,42 @@
+.text-h1 {
+  color: var(--orange);
+  display: flex;
+  justify-content: center;
+  font-family: "Helvetica Neue LT Std 77 Bold Condensed" sans-serif;
+}
+.text-header {
+  height: 797px;
+  position: relative;
+}
+.text-imgBanner {
+  position: relative;
+}
+.text-imgBgBanner {
+  width: 100%;
+}
+.text-containerBanner {
+  background-color: var(--orange);
+  color: white;
+  padding-left: 160px;
+  padding-top: 55px;
+  position: absolute;
+  bottom: 0;
+}
+.text-buttonDecouvrir {
+  border: 1px solid white;
+  background-color: var(--orange);
+  color: white;
+  width: 30%;
+  font-size: 0.7rem;
+  margin-bottom: 40px;
+}
+.text-buttonDecouvrir:hover {
+  background-color: white;
+  color: var(--orange);
+}
+.text-iconSocialMedia {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  padding-right: 247px;
+}
