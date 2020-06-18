@@ -1,0 +1,30 @@
+#burgerMenuDropDown {
+  background-color : var(--orange);
+  height: 1170px;
+  display: none;
+}
+#burgerMenuDropDown h2 {
+  color: white;
+  font-weight: 700;
+  font-size: 3rem;
+  }
+
+#burgerMenu nav {
+  height: 160px;
+}
+.detail-title h1, .detail-title p{
+  color : var(--orange);
+}
+.detail-title h1{
+  font-size: 4rem;
+  font-weight: 500;
+}
+.detail-titleStar {
+  font-size: 50px;
+  margin-top: -40px;
+  margin-bottom: -40px;
+}
+.detail-banner {
+  background: url('../images/detail/header.jpg');
+  height: 692px;
+}
