@@ -1,0 +1,12 @@
+header {
+  background-image: url("../images/list/bg-header.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 986px;
+  border: 2px solid black;
+}
+
+#logo-beauvais {
+  position: sticky;
+  left: 10px;
+}
