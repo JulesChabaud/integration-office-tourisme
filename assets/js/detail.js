@@ -1,10 +1,10 @@
 
 function openBurgerMenu() {
-  document.getElementById('burgerMenu').style.display = 'none';
-  document.getElementById('burgerMenuDropDown').style.display = 'block';
+  document.getElementById('detail-burgerMenu').style.display = 'none';
+  document.getElementById('detail-burgerMenuDropDown').style.display = 'block';
 }
 
 function closeBurgerMenu() {
-  document.getElementById('burgerMenu').style.display = 'block';
-  document.getElementById('burgerMenuDropDown').style.display = 'none';
+  document.getElementById('detail-burgerMenu').style.display = 'block';
+  document.getElementById('detail-burgerMenuDropDown').style.display = 'none';
 }

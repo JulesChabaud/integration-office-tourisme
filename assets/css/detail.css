@@ -1,42 +1,73 @@
-#burgerMenuDropDown {
+/* BURGER MENU NAV*/
+#detail-burgerMenuDropDown {
   background-color : var(--orange);
   height: 1170px;
   display: none;
 }
-#burgerMenuDropDown h2 {
+#detail-burgerMenuDropDown h2 {
   color: white;
   font-weight: 700;
   font-size: 3rem;
   }
-
-#burgerMenu nav {
+#detail-burgerMenu nav {
   height: 160px;
 }
-.detail-title h1 {
+
+/* TYPO */
+.detail h1, h2, h3, h4, .detail-price p {
   color : var(--orange);
 }
-.detail-title h1{
+.detail h1{
   font-size: 4rem;
   font-weight: 500;
 }
+.detail-carouselDescription h4 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.detail-carouselDescription p {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+/*GENERAL */
 .detail-titleStar {
   font-size: 50px;
   margin-top: -40px;
   margin-bottom: -40px;
   color : var(--orange);
 }
+.detail-boxShadow {
+  box-shadow: 3px 5px 6px black;
+}
+
+/* HEADER */
 .detail-banner {
   background: url('../images/detail/header.jpg');
   height: 692px;
 }
+
+
+
+/*SECTION DESCRIPTION */
+
 .detail-description{
-  box-shadow: 3px 5px 6px black;
   background-color: white;
   height:905px;
   margin-top: -40px;
   height:905px;
   margin-bottom: 10rem;
 }
+
+/* SECTION CHAMBRE */
+
+.detail-carouselDescription {
+  top:5rem;
+  right:5rem;
+  width: 567px;
+  height: 460px;
+}
+
 .detail-accecibiltyPartBgOrange {
   background-color : var(--orange);
   bottom: 0;
@@ -54,21 +85,17 @@
 }
 
 
-.detail-description h2, .detail-description h4, .detail-carouselDescription h4  {
-  color : var(--orange);
+/*FOOTER*/
+
+footer {
+  background-color: var(--orange);
+  height: 960px;
 }
-.detail-carouselDescription p {
-  font-size: 1.5rem;
-  font-weight: 600;
-}
-.detail-carouselDescription h4 {
-  font-size: 1.5rem;
-  font-weight: 600;
+footer button {
+  background-color: transparent;
+  border: 2px solid black;
 }
 
-.detail-carouselDescription {
-  top:5rem;
-  right:5rem;
-  width: 567px;
-  height: 460px;
+.button-group {
+  width: 20rem;
 }

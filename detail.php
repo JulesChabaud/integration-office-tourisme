@@ -1,12 +1,12 @@
 <?php include 'header.php' ?>
 <link rel="stylesheet" href="assets/css/detail.css">
 
-<header>
+<header class="detail">
 
-  <div id="burgerMenu">
+  <div id="detail-burgerMenu">
     <nav class="navbar navbar-light bg-white d-flex align-items-start justify-content-between">
       <img src="assets/images/detail/burger-menu.png" alt="Burger menu" class="pl-4 pt-4" onclick="openBurgerMenu()"/>
-      <div class="detail-title text-center">
+      <div class="text-center">
         <h1>CHENAL HOTEL</h1>
         <p class="detail-titleStar">***</p>
         <p><a href="#">Accueil</a> > <a href="#">Séjourner</a> > <a href="#">Hotels</a> > <a href="#">Chenal Hotel</a></p>
@@ -15,7 +15,7 @@
     </nav>
   </div>
 
-  <div id="burgerMenuDropDown">
+  <div id="detail-burgerMenuDropDown">
     <img src="assets/images/detail/burger-menu-white.png" class="pt-5 pl-5" alt="Burger menu" onclick="closeBurgerMenu()"/>
 
     <div class="container">
@@ -49,9 +49,9 @@
 
 </header>
 
-<main>
-  <div class="d-flex justify-content-center">
-    <div class="container detail-description">
+<main class="detail">
+  <section class="d-flex justify-content-center">
+    <div class="container detail-description detail-boxShadow">
       <h2 class="text-center">CHENAL HOTEL</h2>
       <p class="detail-titleStar text-center mt-2">***</p>
       <p class="p-5">L’Hôtel Le Chenal*** vous reçoit chaleureusement à Beauvais, dans le département de l’Oise.
@@ -68,29 +68,29 @@
           <img src="assets/images/detail/cross-icon.png" width="50px" alt="Icone voir plus">
         </div>
     </div>
-  </div>
+  </section>
 
-<div class="position-relative">
+<section class="position-relative">
 
-<div class="container-fluid detail-carousel">
-  <div class="row">
-    <div class="col-lg-11">
-      <div class="carousel slide ml-5" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
+  <div class="container-fluid detail-carousel">
+    <div class="row">
+      <div class="col-lg-11">
+        <div class="carousel slide ml-5" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assets/images/detail/chambre1.jpg" alt="">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/images/detail/chambre2.jpg" alt="">
+            </div>
+            <div class="carousel-item">
               <img src="assets/images/detail/chambre1.jpg" alt="">
-          </div>
-          <div class="carousel-item">
-            <img src="assets/images/detail/chambre2.jpg" alt="">
-          </div>
-          <div class="carousel-item">
-            <img src="assets/images/detail/chambre1.jpg" alt="">
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
 
   <div class="detail-carouselDescription bg-white position-absolute">
       <h4 class="text-center pt-3">CHENAL HOTEL</h4>
@@ -129,37 +129,95 @@
 
     </div>
   </div>
-</div>
 
-
-  <div class="container">
+  <div class="container detail-price my-5">
     <div class="row">
-      <div class="col-lg-10">
-        <div>
-          <h3>CHAMBRE CONFORT</h3>
-          <p>Tarif a partir de : 72 €</p>
-          <img src="assets/images/detail/chambreconfort.jpg" alt="">
+      <div class="col-lg-8 detail-boxShadow">
+
+        <div class="row mt-3">
+          <div class="col-lg-8">
+            <h3>CHAMBRE CONFORT</h3>
+            <p>Tarif a partir de : 72 €</p>
+          </div>
+          <div class="col-lg-2">
+            <img src="assets/images/detail/chambreconfort.jpg" alt="">
+          </div>
         </div>
-        <div>
-          <h3>CHAMBRE SUPERIEUR</h3>
-          <p>Tarif a partir de : 72 €</p>
-          <img src="assets/images/detail/chambreconfort.jpg" alt="">
+
+        <div class="row mt-3">
+          <div class="col-lg-8">
+            <h3>CHAMBRE CONFORT</h3>
+            <p>Tarif a partir de : 72 €</p>
+          </div>
+          <div class="col-lg-2">
+            <img src="assets/images/detail/chambre-double.jpg" alt="">
+          </div>
         </div>
-        <div>
-          <h3>CHAMBRE FAMILIALE</h3>
-          <p>Tarif a partir de : 72 €</p>
-          <img src="assets/images/detail/chambrefamiliale.jpg" alt="">
+
+        <div class="row mt-3">
+          <div class="col-lg-8">
+            <h3>CHAMBRE CONFORT</h3>
+            <p>Tarif a partir de : 72 €</p>
+          </div>
+          <div class="col-lg-2">
+            <img src="assets/images/detail/chambrefamilliale.jpg" alt="">
+          </div>
         </div>
-        <div>
-          <h3>CHAMBRE CONFORT</h3>
-          <p>Tarif a partir de : 72 €</p>
-          <img src="assets/images/detail/chambreconfort.jpg" alt="">
+
+        <div class="row mt-3">
+          <div class="col-lg-8">
+            <h3>CHAMBRE CONFORT</h3>
+            <p>Tarif a partir de : 72 €</p>
+          </div>
+          <div class="col-lg-2">
+            <img src="assets/images/detail/chambremini1.jpg" alt="">
+          </div>
         </div>
+
       </div>
     </div>
   </div>
+</section>
+
+<section class="container-fluid">
+
+</section>
+
+<footer class="container-fluid">
+  <div class="row text-white">
+    <div class="col-lg-5 px-5 text-center">
+        <img src="assets/images/detail/logo-white.png" width="250px" alt="Logo">
+        <p>La ville de beauvais situé au coeur de sa régon historique
+          la picardie, est célèbre pour sa cathedrale gothique et ses
+          illuminations. Notre ville offre de nombreux parcours de
+          visite, commerces et sites a visiter.</p>
+          <div class="row">
+            <div class="button-group mx-auto col-lg-5 d-flex flex-column">
+              <button type="button" class="px-5 py-3">nos bureaux informations</button>
+              <button type="button" class="px-5 py-3" >nous contactez</button>
+            </div>
+          </div>
+          <p>suivez-nous</p>
+    </div>
+    <div class="col-lg-2 d-flex flex-column justify-content-center">
+      <h5>Laissez vous guidez</h5>
+      <p>Consultez nos brochures
+          détaillées pour facilter la
+          découverte de notre ville</p>
+
+      <img src="assets/images/detail/couverture-flyers.jpg" width="200px" height="300px" class="mx-auto mt-5">
+      <button type="button" name="button">Nos brochures</button>
+    </div>
+    <div class="col-lg-5 d-flex flex-column justify-content-center p-5">
+      <button type="button" name="button">Nos brochures</button>
+      <img src="assets/images/detail/carte-beauvais-footer.png" width="500px" height="500px" class="mx-auto mt-5" alt="">
+    </div>
+
+  </div>
 
 
+
+</footer>
 
 
 
