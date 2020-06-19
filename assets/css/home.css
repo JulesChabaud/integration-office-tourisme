@@ -73,11 +73,12 @@
 }
 
 .home-titreAgenda{
-  font-family: 'Helvetica Neue LT Std 77 Bold Condensed'sans-serif;
+  font-family: 'Helvetica Neue LT Std 77 Bold Condensed';
+  font-size: 75px;
   margin-top: 50px;
 }
 
 .home-catAgenda{
+  font-family: 'Helvetica Neue LT Std 57 Condensed';
   margin-top: 75px;
-  font: 'Helvetica Neue LT Std 57 Condensed';
 }

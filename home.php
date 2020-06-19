@@ -1,6 +1,5 @@
 <?php include "header.php" ?>
 <link rel="stylesheet" href="assets/css/home.css">
-<link rel="stylesheet" href="assets/js/home.js">
 
 
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -81,8 +80,8 @@
 
   <div class="container">
     <div class="row">
-      <div class="col-8 home-titreAgenda">
-        <h2>L'AGENDA DE BEAUVAIS</h2>
+      <div class="col-8 ">
+        <h2 class="home-titreAgenda">L'AGENDA DE BEAUVAIS</h2>
       </div>
     </div>
   </div>
@@ -91,21 +90,34 @@
   <div class="container home-catAgenda">
     <div class="row">
       <div class="col-3">
-        <h3>Prochainement</h3>
+        <h3><span class="home-AgendaLettre1">P</span>ROCHAINEMENT</h3>
       </div>
       <div class="col-3">
-        <h3>Les semaines a venir</h3>
+        <h3><span class="home-AgendaLettre1">L</span>ES SEMAINES A VENIR</h3>
       </div>
       <div class="col-3">
-        <h3>Les mois a venir</h3>
+        <h3><span class="home-AgendaLettre1">L</span>ES MOIS A VENIR</h3>
       </div>
       <div class="col-3">
-        <h3>Calendrier</h3>
+        <h3><span class="home-AgendaLettre1">C</span>ALENDRIER</h3>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-6">
+        <img class="" src="assets/images/home/Marche-artisanal.png" alt="Third slide">
       </div>
     </div>
   </div>
 
 
 </div>
+
+
+
+
+
 
 <?php include "footer.php" ?>
