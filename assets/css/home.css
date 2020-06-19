@@ -1,0 +1,83 @@
+
+
+.home-carouselIndicators li{
+  margin-right: 15px;
+  width: 30px;
+  height: 30px;
+  opacity: 100%;
+  border-radius: 100%;
+  background-color: var(--orange);
+}
+
+.home-carouselIndicators .active{
+    background-color: var(--purple);
+}
+
+.home-logoBan{
+  width: 115px;
+  height: auto;
+  top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.home-langagePicker{
+  width: 115px;
+  height: auto;
+  top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 105rem;
+  right: 0;
+  text-align: center;
+}
+
+
+
+.home-miniSliderImg{
+  overflow: hidden;
+  width:194px;
+  top: 40rem;
+  right: 20rem;
+}
+
+.home-miniSliderControlPrev{
+  right: 100px;
+}
+
+
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+  right: 0;  //or you can increase this
+}
+
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+  left: 0; //or you can increase this
+}
+
+.container-covid{
+  height: 80px;
+  background-color: var(--orange);
+}
+
+.home-textCovid{
+  text-align: center;
+}
+
+.home-containerAgenda{
+  background-color: var(--purple);
+  width: auto;
+  height: 932px;
+}
+
+.home-titreAgenda{
+  font-family: 'Helvetica Neue LT Std 77 Bold Condensed'sans-serif;
+  margin-top: 50px;
+}
+
+.home-catAgenda{
+  margin-top: 75px;
+  font: 'Helvetica Neue LT Std 57 Condensed';
+}
