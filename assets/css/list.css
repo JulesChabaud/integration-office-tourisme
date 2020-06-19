@@ -1,12 +1,50 @@
-header {
+#list-header {
   background-image: url("../images/list/bg-header.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   height: 986px;
-  border: 2px solid black;
 }
 
-#logo-beauvais {
-  position: sticky;
-  left: 10px;
+#list-logoBeauvais {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+#list-burgerMenu {
+}
+
+#list-choixLangues li {
+  justify-content: flex-end;
+  display: flex;
+  list-style: none;
+}
+
+#list-choixLangues {
+  color: white;
+}
+
+#list-chambresHotes {
+  text-align: right;
+  font-size: 50px;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  font-family: "Helvetica Neue LT Std MdCn", sans-serif;
+}
+
+#list-navigation p, a {
+  color: var(--orange);
+  font-size: 30px;
+}
+
+#list-navigation {
+  display: flex;
+  background-color: white;
+  height: 99px;
+  width: 802px;
+}
+
+.list-select {
+  list-style: none;
 }
