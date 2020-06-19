@@ -12,7 +12,7 @@
 #burgerMenu nav {
   height: 160px;
 }
-.detail-title h1, .detail-title p{
+.detail-title h1 {
   color : var(--orange);
 }
 .detail-title h1{
@@ -23,8 +23,52 @@
   font-size: 50px;
   margin-top: -40px;
   margin-bottom: -40px;
+  color : var(--orange);
 }
 .detail-banner {
   background: url('../images/detail/header.jpg');
   height: 692px;
+}
+.detail-description{
+  box-shadow: 3px 5px 6px black;
+  background-color: white;
+  height:905px;
+  margin-top: -40px;
+  height:905px;
+  margin-bottom: 10rem;
+}
+.detail-accecibiltyPartBgOrange {
+  background-color : var(--orange);
+  bottom: 0;
+  width: 100%;
+  height: 93px;
+}
+.detail-accecibiltyPartRoundPurple {
+  border-radius: 50rem;
+  height: 3rem;
+  width: 3rem;
+  background-color : var(--purple);
+}
+.detail-accecibiltyPartIcon {
+  margin-top: -15px;
+}
+
+
+.detail-description h2, .detail-description h4, .detail-carouselDescription h4  {
+  color : var(--orange);
+}
+.detail-carouselDescription p {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.detail-carouselDescription h4 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.detail-carouselDescription {
+  top:5rem;
+  right:5rem;
+  width: 567px;
+  height: 460px;
 }
