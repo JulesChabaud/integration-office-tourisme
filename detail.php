@@ -63,10 +63,34 @@
         Profitez d’un petit-déjeuner, buffet continental qui sera servi dans le salon de l’hôtel au rez-de-chaussée de 6h à 10h
         et de plusieurs restaurants : Le Sesame (situé derrière l’Hôtel Chenal) qui vous accueillent dans un cadre chaleureux
         et unique à Beauvais et d’autres restaurants à proximité de l’hôtel.</p>
-        <div class="text-center">
+        <div class="text-center detail-confort">
           <h4>CONFORT</h4>
-          <img src="assets/images/detail/cross-icon.png" width="50px" alt="Icone voir plus">
+          <img src="assets/images/detail/cross-icon.png" onclick="openConfort()" id="detail-confortIconMore" width="50px" alt="Icone voir plus">
         </div>
+
+        <div id="detail-confortMore" class="mt-5">
+          <div class="d-flex justify-content-center">
+            <div class="detail-confortMoreCircle mx-3 d-flex justify-content-center align-items-center">
+              <img src="assets/images/detail/icon-wifi.png" alt="Icone voir plus">
+            </div>
+            <div class="detail-confortMoreCircle mx-3 d-flex justify-content-center align-items-center">
+              <img src="assets/images/detail/icon-hairdryer.png" alt="Icone voir plus">
+            </div>
+            <div class="detail-confortMoreCircle mx-3 d-flex justify-content-center align-items-center">
+              <img src="assets/images/detail/tel.png" alt="Icone voir plus">
+            </div>
+            <div class="detail-confortMoreCircle mx-3 d-flex justify-content-center align-items-center">
+              <img src="assets/images/detail/icon-tel.png" alt="Icone voir plus">
+            </div>
+            <div class="detail-confortMoreCircle mx-3 d-flex justify-content-center align-items-center">
+              <img src="assets/images/detail/icon-parabole.png" alt="Icone voir plus">
+            </div>
+            <div class="detail-confortMoreCircle mx-3 d-flex justify-content-center align-items-center">
+              <img src="assets/images/detail/icon-windows.png" alt="Icone voir plus">
+            </div>
+          </div>
+        </div>
+
     </div>
   </section>
 
@@ -92,7 +116,7 @@
     </div>
   </div>
 
-  <div class="detail-carouselDescription bg-white position-absolute">
+  <div class="detail-carouselDescription bg-white position-absolute position-sticky">
       <h4 class="text-center pt-3">CHENAL HOTEL</h4>
       <p class="p-5">63 boulevard du Général de Gaulle<br/>
         60000 Beauvais<br/>

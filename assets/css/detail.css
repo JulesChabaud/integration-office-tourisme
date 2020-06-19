@@ -16,6 +16,7 @@
 /* TYPO */
 .detail h1, h2, h3, h4, .detail-price p {
   color : var(--orange);
+  font-family: "Helvetica Neue LT Std 57 Condensed";
 }
 .detail h1{
   font-size: 4rem;
@@ -58,6 +59,16 @@
   height:905px;
   margin-bottom: 10rem;
 }
+.detail-confortMoreCircle {
+  border: 1px solid var(--orange);
+  width: 5rem;
+  height:5rem;
+  border-radius: 5rem;
+}
+#detail-confortMore {
+  display: none;
+}
+
 
 /* SECTION CHAMBRE */
 

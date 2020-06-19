@@ -8,3 +8,8 @@ function closeBurgerMenu() {
   document.getElementById('detail-burgerMenu').style.display = 'block';
   document.getElementById('detail-burgerMenuDropDown').style.display = 'none';
 }
+
+function openConfort() {
+  document.getElementById('detail-confortMore').style.display = 'block';
+  document.getElementById('detail-confortIconMore').style.display = 'none';
+}
