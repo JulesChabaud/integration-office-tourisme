@@ -116,7 +116,7 @@
     </div>
   </div>
 
-  <div class="detail-carouselDescription bg-white position-absolute position-sticky">
+  <div class="detail-carouselDescription bg-white position-absolute">
       <h4 class="text-center pt-3">CHENAL HOTEL</h4>
       <p class="p-5">63 boulevard du Général de Gaulle<br/>
         60000 Beauvais<br/>
@@ -153,6 +153,7 @@
 
     </div>
   </div>
+
 
   <div class="container detail-price my-5">
     <div class="row">
@@ -203,8 +204,8 @@
   </div>
 </section>
 
-<section class="container-fluid">
-
+<section class="container-fluid detail-map p-0">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2595.0450728391756!2d2.086639816068699!3d49.42696187934733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e7012ca4282d53%3A0x12d0fe60af32d183!2s63%20Boulevard%20du%20G%C3%A9n%C3%A9ral%20de%20Gaulle%2C%2060000%20Beauvais!5e0!3m2!1sfr!2sfr!4v1592574094307!5m2!1sfr!2sfr" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 </section>
 
 <footer class="container-fluid">
