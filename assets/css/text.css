@@ -36,7 +36,64 @@
 }
 .text-iconSocialMedia {
   display: flex;
-  justify-content: flex-end;
   flex-direction: column;
-  padding-right: 247px;
+  align-items: flex-end;
+  padding-right: 220px;
+}
+.text-iconSocialMedia img {
+  width: 35px;
+  padding-bottom: 8px;
+}
+.text-iconGoogle {
+  width: 25px!important;
+}
+.text-fontOrange {
+  color: var(--orange);
+}
+.text-fontBlack {
+  color: var(--black);
+}
+.text-breadcrumbs {
+  display: flex;
+  margin-top: 45px;
+  margin-bottom: 45px;
+  padding-left: 160px;
+}
+.text-breadcrumbs a{
+  text-decoration: none;
+}
+.text-breadcrumbs h3{
+  font-size: 1rem;
+}
+.text-titleServices {
+  padding-left: 160px;
+  display: flex;
+}
+.text-titleServices h2 {
+  padding-top: 20px;
+}
+.text-iconRestau {
+  width:8rem;
+  padding-left: 20px;
+
+}
+.text-fontPurple {
+  color: var(--purple);
+}
+.text-imgServices {
+  position: relative;
+}
+.text-imgServices img{
+  width: 100%;
+}
+.text-encadreText {
+  margin-left: 160px;
+  margin-right: 160px;
+  background-color: white;
+  border-top: 10px solid var(--gray);
+  border-right: 10px solid var(--gray);
+  padding-top: 3%;
+  padding-bottom: 3%;
+  font-weight: bold;
+
 }
