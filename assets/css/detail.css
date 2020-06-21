@@ -1,8 +1,51 @@
+
+/* TYPO */
+.detail {
+  font-family: "Helvetica Neue LT Std 57 Condensed";
+}
+#detail-description {
+  font-size: 1.8rem;
+}
+.detail h1, h2, h3, h4, .detail-price p {
+  color : var(--orange);
+}
+.detail h1{
+  font-size: 5rem;
+}
+.detail h2{
+  font-size: 4rem;
+}
+.detail-confort h4 {
+  font-size: 2rem;
+}
+.detail-titleStar + p {
+  font-size: 1.6rem;
+}
+.detail-carouselDescription h4 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.detail-carouselDescription p {
+  font-size: 2rem;
+}
+.detail-breadcrumbs a{
+  font-size: .7rem;
+  color : var(--orange);
+  font-weight: 700;
+}
+/* GENERAL */
+.detail-boxShadow {
+  box-shadow: 0px 0px 30px grey;
+}
+
 /* BURGER MENU NAV*/
 #detail-burgerMenuDropDown {
   background-color : var(--orange);
-  height: 1170px;
+  height: 1000px;
   display: none;
+}
+.detail-container {
+  margin-top : -50px;
 }
 #detail-burgerMenuDropDown h2 {
   color: white;
@@ -12,39 +55,16 @@
 #detail-burgerMenu nav {
   height: 160px;
 }
-
-/* TYPO */
-.detail {
-  font-family: "Helvetica Neue LT Std 57 Condensed";
-}
-.detail-description {
-  font-size: 1.8rem;
-}
-.detail h1, h2, h3, h4, .detail-price p {
-  color : var(--orange);
-}
-.detail h1{
-  font-size: 4rem;
-  font-weight: 500;
-}
-.detail-carouselDescription h4 {
-  font-size: 1.5rem;
-  font-weight: 600;
-}
-.detail-carouselDescription p {
-  font-size: 1.5rem;
-  font-weight: 600;
-}
-
-/*GENERAL */
-.detail-titleStar {
-  font-size: 50px;
+.detail-BurgerMenuDropDownDescription {
   margin-top: -40px;
-  margin-bottom: -40px;
-  color : var(--orange);
 }
-.detail-boxShadow {
-  box-shadow: 3px 5px 6px black;
+
+/* NAV */
+.detail-titleStar {
+  font-size: 70px;
+  margin-top: -38px;
+  margin-bottom: -55px;
+  color : var(--orange);
 }
 
 /* HEADER */
@@ -54,25 +74,64 @@
 }
 
 
-
 /*SECTION DESCRIPTION */
 
-.detail-description{
+
+#detail-description{
   background-color: white;
-  height:905px;
-  margin-top: -40px;
-  height:905px;
+  height:870px;
+  margin-top: -130px;
   margin-bottom: 10rem;
 }
 .detail-confortMoreCircle {
   border: 1px solid var(--orange);
-  width: 5rem;
-  height:5rem;
+  width: 4rem;
+  height:4rem;
   border-radius: 5rem;
 }
+.detail-confortMoreCircle:hover {
+  background-color: var(--purple);
+  border: none;
+}
+
 #detail-confortMore {
   display: none;
 }
+
+#detail-description .detail-titleStar {
+  font-size: 50px;
+
+}
+
+.detail-ConfortMoreHoverDescription p {
+  color: var(--purple);
+  font-size: 0.95rem;
+}
+
+#detail-confortMoreDescriptionWifi, #detail-confortMoreDescriptionHairdryer, #detail-confortMoreDescriptionPhone, #detail-confortMoreDescriptionTv,
+#detail-confortMoreDescriptionParabole, #detail-confortMoreDescriptionWindows {
+  display: none;
+}
+
+#detail-confortMoreDescriptionWifi {
+  margin-left: 6.8rem;
+}
+#detail-confortMoreDescriptionHairdryer {
+  margin-left: 13.6rem;
+}
+#detail-confortMoreDescriptionPhone {
+  margin-left: 21.8rem;
+}
+#detail-confortMoreDescriptionTv {
+  margin-left: 29.8rem;
+}
+#detail-confortMoreDescriptionParabole {
+  margin-left: 38.2rem;
+}
+#detail-confortMoreDescriptionWindows {
+  margin-left: 45rem;
+}
+
 
 
 /* SECTION CHAMBRE */
@@ -82,6 +141,10 @@
   right:5rem;
   width: 567px;
   height: 460px;
+}
+.detail-carouselDescription p {
+    padding-left: 5rem;
+    padding-top: 2rem;
 }
 .detail-accecibiltyPartBgOrange {
   background-color : var(--orange);
@@ -98,6 +161,8 @@
 .detail-accecibiltyPartIcon {
   margin-top: -15px;
 }
+
+
 /* SECTION CARTE */
 .detail-map iframe {
   width: 100%;
@@ -113,11 +178,11 @@ footer {
   background-color: var(--orange);
   height: 960px;
 }
-footer button {
-  background-color: transparent;
-  border: 2px solid black;
-}
 
 .button-group {
   width: 20rem;
+}
+
+.button-group button {
+  font-size: .9rem;
 }
