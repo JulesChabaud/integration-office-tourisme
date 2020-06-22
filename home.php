@@ -1,6 +1,6 @@
 <?php include "header.php" ?>
 <link rel="stylesheet" href="assets/css/home.css">
-<link rel="stylesheet" href="assets/js/home.js">
+<script type="text/javascript" src="monscript.js"></script>
 
 
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -67,22 +67,22 @@
     </div>
   </div>
   <a class="carousel-control-prev home-miniSliderControlPrev" href="#carouselExampleControls" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <img class="carousel-control-next-icon" aria-hidden="true" src="assets/images/home/fleche-droite.png" alt="First slide">
     <span class="sr-only">Previous</span>
   </a>
   <a class="carousel-control-next home-miniSliderControlnext" href="#carouselExampleControls" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <img class="carousel-control-next-icon" aria-hidden="true" src="assets/images/home/fleche-droite.png" alt="First slide">
     <span class="sr-only">Next</span>
   </a>
 </div>
 
 
-<div class="container-fluid home-containerAgenda">
+<div class="container-fluid home-containerAgenda position-relative">
 
   <div class="container">
     <div class="row">
-      <div class="col-8 home-titreAgenda">
-        <h2>L'AGENDA DE BEAUVAIS</h2>
+      <div class="col-8 ">
+        <h2 class="home-titreAgenda">L'AGENDA DE BEAUVAIS</h2>
       </div>
     </div>
   </div>
@@ -90,22 +90,76 @@
 
   <div class="container home-catAgenda">
     <div class="row">
-      <div class="col-3">
-        <h3>Prochainement</h3>
+      <div class="col-3 home-listeAgenda">
+        <h3><span class="home-AgendaLettre1">P</span>ROCHAINEMENT</h3>
       </div>
-      <div class="col-3">
-        <h3>Les semaines a venir</h3>
+      <div class="col-3 home-listeAgenda">
+        <h3><span class="home-AgendaLettre1">L</span>ES SEMAINES A VENIR</h3>
       </div>
-      <div class="col-3">
-        <h3>Les mois a venir</h3>
+      <div class="col-3 home-listeAgenda">
+        <h3><span class="home-AgendaLettre1">L</span>ES MOIS A VENIR</h3>
       </div>
-      <div class="col-3">
-        <h3>Calendrier</h3>
+      <div class="col-3 home-listeAgenda">
+        <h3><span class="home-AgendaLettre1">C</span>ALENDRIER</h3>
       </div>
     </div>
   </div>
 
+  <div class="container home-containerAgendaPhoto">
+    <div class="row">
+      <div class="col-6">
+        <img class="" src="assets/images/home/Marche-artisanal.png" alt="Third slide">
+      </div>
+    </div>
+  </div>
+
+  <div id="carouselExampleControls4" class="carousel slide home-agendaSlider position-absolute" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="" src="assets/images/home/LA-MALADRERIE-A-LA-LANTERNE.png" alt="First slide">
+      </div>
+      <div class="carousel-item">
+        <img class="" src="assets/images/home/LA-MALADRERIE-A-LA-LANTERNE.png" alt="Second slide">
+      </div>
+      <div class="carousel-item">
+        <img class="" src="assets/images/home/LA-MALADRERIE-A-LA-LANTERNE.png" alt="Third slide">
+      </div>
+    </div>
+    <a class="carousel-control-prev home-agendaSliderControlPrev" href="#carouselExampleControls4" role="button" data-slide="prev">
+      <img class="carousel-control-next-icon" aria-hidden="true" src="assets/images/home/fleche-gauche.png" alt="First slide">
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next home-agendaSliderControlnext" href="#carouselExampleControls4" role="button" data-slide="next">
+      <img class="carousel-control-next-icon" aria-hidden="true" src="assets/images/home/fleche-droite.png" alt="First slide">
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+  </div>
+
+  <div class="home-containerVisite">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+          One of three columns
+        </div>
+        <div class="col-sm">
+          One of three columns
+        </div>
+        <div class="col-sm">
+          One of three columns
+        </div>
+      </div>
+    </div>
+
+
 
 </div>
+
+
+</div>
+
+
 
 <?php include "footer.php" ?>

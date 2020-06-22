@@ -2,8 +2,49 @@
 <link rel="stylesheet" href="assets/css/text.css">
 
 <!--SECTION NAVBAR -->
+<div id="detail-burgerMenu">
+  <nav class="navbar navbar-light bg-white d-flex align-items-start justify-content-between">
+    <img src="assets/images/detail/burger-menu.png" alt="Burger menu" class="pl-4 pt-5" onclick="openBurgerMenu()"/>
+    <div class="">
+      <h1 class="text-uppercase text-h1">Aeroport Paris-Beauvais</h1>
+    </div>
+    <img src="assets/images/detail/logo.png" alt="Logo">
+  </nav>
+</div>
 
-    <h1 class="text-uppercase text-h1">Aeroport Paris-Beauvais</h1>
+<div id="detail-burgerMenuDropDown">
+  <img src="assets/images/detail/burger-menu-white.png" class="pt-5 pl-5" alt="Burger menu" onclick="closeBurgerMenu()"/>
+
+  <div class="container detail-container">
+    <div class="d-flex justify-content-center">
+      <img src="assets/images/detail/logo-white.png" width="289px" height="294px" alt="Logo">
+    </div>
+    <div class="row detail-BurgerMenuDropDownDescription">
+
+      <div class="col-lg-11">
+        <h2>Séjourner</h2>
+        <h2 class="pt-3">Manger</h2>
+        <h2 class="pt-3">Idée Week-end</h2>
+        <h2>Carte intéractive</h2>
+        <h2 class="pt-3">Groupe</h2>
+        <h2 class="pt-3">Pratique</h2>
+        <h2 class="pt-3">Boutique en ligne</h2>
+        <h2 class="pt-3">Découvrir</h2>
+      </div>
+
+      <div class="col-lg-1 d-flex align-items-center justify-content-between flex-column">
+        <img src="assets/images/detail/meteo-icon.png" width="80px" alt="Icone méteo">
+        <img src="assets/images/detail/location-icon.png" width="50px" alt="Icone location">
+        <img src="assets/images/detail/discover-icon.png" class="pb-5" width="60px" alt="Icon à découvrir">
+      </div>
+
+    </div>
+  </div>
+</div>
+<div class="detail-banner">
+</div>
+
+
 
 
 <!-- SECTION BANNER -->
@@ -75,6 +116,17 @@
         <p>Pleins d'autres services seront à votre disposition !</p>
       </div>
     </div>
+
+  </section>
+
+<!-- SECTION TRANSPORT -->
+  <section class="text-transport">
+    <div class="text-titleTransport">
+      <img class="text-iconTransport" src="assets/images/text/text-iconTransport.png" alt="icone transport"/>
+      <h2 class="text-uppercase font-weight-bold"><span class="text-fontPurple">Comment s'y rendre<br></span><span class="text-fontWhite">/ se déplacer ?</span></h2>
+    </div>
+
+
 
   </section>
 
