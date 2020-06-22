@@ -68,7 +68,7 @@
     </div>
 
     <div class="text-breadcrumbs">
-      <a href="#"><h3 class="text-uppercase text-fontOrange"><span class="font-weight-bold">A</span>ccueil ></h3></a>
+      <a href="home.php"><h3 class="text-uppercase text-fontOrange"><span class="font-weight-bold">A</span>ccueil ></h3></a>
       <a href="#"><h3 class="text-uppercase text-fontOrange"><span class="font-weight-bold">A</span>éroport de Paris Beauvais ></h3></a>
       <a href="#"><h3 class="text-uppercase text-fontBlack"><span class="font-weight-bold">P</span>aris Beauvais</h3></a>
     </div>
@@ -126,7 +126,25 @@
       <h2 class="text-uppercase font-weight-bold"><span class="text-fontPurple">Comment s'y rendre<br></span><span class="text-fontWhite">/ se déplacer ?</span></h2>
     </div>
 
+<div class="row m-0">
+  <div class="col-lg-6">
+    <img class="text-chevronGauche" src="assets/images/text/text-chevronGauche.png" alt="chevron gauche"/>
+    <div class="text-navette">
+      <h3 class="text-titleNavette text-fontPurple font-weight-bold">En navette</h3>
+      <img src="assets/images/text/text-navette.jpg" alt="image navette"/>
+      <p class="text-pNavette">De nombreuses navettes relient le centre de Paris (porte de Maillot - Parking Pershing) à l'aéroport en 1h15.<br><br>Vous pouvez réserver votre trajet en ligne</p>
+    </div>
+  </div>
 
+  <div class="col-lg-6">
+    <img class="text-chevronDroit" src="assets/images/text/text-chevronDroit.png" alt="chevron droit"/>
+    <div class="text-bus">
+      <h3 class="text-titleBus text-fontPurple font-weight-bold">En bus</h3>
+      <img src="assets/images/text/text-bus.jpg" alt="image bus"/>
+      <p class="text-pBus">La ligne numéro 06 vous emmène directement au centre-ville de Beauvais où vous pourrez profitez de ses monuments historiques, de ses bars, restaurants et de ses nombreuses boutiques.</p>
+    </div>
+  </div>
+</div>
 
   </section>
 
