@@ -190,3 +190,30 @@
   bottom: 62px;
 
 }
+.text-compagnies {
+  background-color: var(--gray);
+  height: 930px;
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+.text-titleCompagnies {
+  font-family: "Helvetica Neue LT Std 47 Light Condensed";
+  padding-left: 160px;
+  display: flex;
+  position: absolute;
+  margin-top: -35px;
+}
+.text-iconAvion {
+
+}
+.text-logoCompagnies {
+  padding-left: 160px;
+  padding-right: 160px;
+  padding-top: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.text-logoCompagnies img {
+  width: 80%;
+}

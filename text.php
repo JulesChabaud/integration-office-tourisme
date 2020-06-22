@@ -130,7 +130,27 @@
 
   </section>
 
+<!-- SECTION COMPAGNIES -->
+  <section class="text-compagnies">
+    <div class="text-titleCompagnies">
+      <h2 class="text-uppercase font-weight-bold text-fontPurple">Les compagnies<br>aériennes</h2>
+      <img class="text-iconAvion" src="assets/images/text/text-iconAvion.png" alt="icone avion"/>
+    </div>
+    <div class="text-logoCompagnies">
+      <a href="#"><img src="assets/images/text/text-logoRayanair.jpg" alt="logo Rayanair"/></a>
+      <a href="#"><img src="assets/images/text/text-logoBlueair.png" alt="logo Blue air"/></a>
+      <a href="#"><img src="assets/images/text/text-logoMoldova.png" alt="logo Air Moldova"/></a>
+      <a href="#"><img src="assets/images/text/text-logoLauda.png" alt="logo Laudamotion"/></a>
+    </div>
+    <div class="text-logoCompagnies">
+      <a href="#"><img src="assets/images/text/text-logoVolotea.png" alt="logo Volotea"/></a>
+      <a href="#"><img src="assets/images/text/text-logoSkyup.png" alt="logo SkyUp Airlines"/></a>
+      <a href="#"><img src="assets/images/text/text-logoWizz.png" alt="logo Wizz"/></a>
 
+    </div>
+
+
+  </section>
 
 
 
