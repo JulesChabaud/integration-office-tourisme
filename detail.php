@@ -25,14 +25,14 @@
       <div class="row detail-BurgerMenuDropDownDescription">
 
         <div class="col-lg-11">
-          <h2>Séjourner</h2>
-          <h2 class="pt-3">Manger</h2>
-          <h2 class="pt-3">Idée Week-end</h2>
-          <h2>Carte intéractive</h2>
-          <h2 class="pt-3">Groupe</h2>
-          <h2 class="pt-3">Pratique</h2>
-          <h2 class="pt-3">Boutique en ligne</h2>
-          <h2 class="pt-3">Découvrir</h2>
+          <a href="#"><h2 class="pt-3">Séjourner</h2></a>
+          <a href="#"><h2 class="pt-3">Manger</h2></a>
+          <a href="#"><h2 class="pt-3">Idée Week-end</h2></a>
+          <a href="#"><h2 class="pt-3">Carte intéractive</h2></a>
+          <a href="#"><h2 class="pt-3">Groupe</h2></a>
+          <a href="#"><h2 class="pt-3">Pratique</h2></a>
+          <a href="#"><h2 class="pt-3">Boutique en ligne</h2></a>
+          <a href="#"><h2 class="pt-3">Découvrir</h2></a>
         </div>
 
         <div class="col-lg-1 d-flex align-items-center justify-content-between flex-column">
@@ -44,8 +44,16 @@
       </div>
     </div>
   </div>
-  <div class="detail-banner">
+
+  <div id="myModal" class="modal-1">
+    <span class="close">&times;</span>
+      <img src="assets/images/detail/banner-modal.jpg" class="img-fluid img01" alt="banner" />
+
   </div>
+
+  <a href="#">
+    <div id="detail-banner"></div>
+  </a>
 
 </header>
 
@@ -114,6 +122,7 @@
         </div>
   </section>
 
+<!-- SECTION CHAMBRE CARROUSEL -->
 <section class="position-relative">
 
   <div class="container-fluid detail-carousel">
@@ -136,6 +145,8 @@
     </div>
   </div>
 
+  <!-- SECTION CHAMBRE DESCRIPTION CARROUSEL -->
+
   <div class="detail-carouselDescription bg-white position-absolute detail-boxShadow">
       <h4 class="text-center pt-3">CHENAL HÔTEL</h4>
       <p>63 boulevard du Général de Gaulle<br/>
@@ -148,7 +159,7 @@
 
       <div class="detail-accecibiltyPartRoundPurple mx-3 mt-2 d-flex justify-content-center">
         <div class="detail-accecibiltyPartIcon">
-          <img src="assets/images/detail/adeux.png" alt="">
+          a<img src="assets/images/detail/adeux.png" alt="">
         </div>
       </div>
 
@@ -173,49 +184,198 @@
 
     </div>
   </div>
+  <!-- END SECTION CHAMBRE DESCRIPTION CARROUSEL -->
 
 
-  <div class="container detail-price my-5">
+  <!-- SECTION MODAL CHAMBRE PRICE -->
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-lg-10">
+
+      <div class="modal fade detail-modalChambre1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div id="detail-modalChambreIndicators1" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#detail-modalChambreIndicators1" data-slide-to="0" class="active"></li>
+                <li data-target="#detail-modalChambreIndicators1" data-slide-to="1"></li>
+                <li data-target="#detail-modalChambreIndicators1" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="assets/images/detail/chambre2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/images/detail/chambre2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/images/detail/chambre2.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#detail-modalChambreIndicators1" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#detail-modalChambreIndicators1" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade detail-modalChambre2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div id="detail-modalChambreIndicators2" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#detail-modalChambreIndicators2" data-slide-to="0" class="active"></li>
+                <li data-target="#detail-modalChambreIndicators2" data-slide-to="1"></li>
+                <li data-target="#detail-modalChambreIndicators2" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="assets/images/detail/chambre1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/images/detail/chambre1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/images/detail/chambre1.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#detail-modalChambreIndicators2" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#detail-modalChambreIndicators2" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="modal fade detail-modalChambre3" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div id="detail-modalChambreIndicators3" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#detail-modalChambreIndicators3" data-slide-to="0" class="active"></li>
+                <li data-target="#detail-modalChambreIndicators3" data-slide-to="1"></li>
+                <li data-target="#detail-modalChambreIndicators3" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="assets/images/detail/chambre2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/images/detail/chambre2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/images/detail/chambre2.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#detail-modalChambreIndicators3" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#detail-modalChambreIndicators3" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="modal fade detail-modalChambre4" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div id="detail-modalChambreIndicators4" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#detail-modalChambreIndicators4" data-slide-to="0" class="active"></li>
+                <li data-target="#detail-modalChambreIndicators4" data-slide-to="1"></li>
+                <li data-target="#detail-modalChambreIndicators4" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="assets/images/detail/chambre2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/images/detail/chambre2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/images/detail/chambre2.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#detail-modalChambreIndicators4" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#detail-modalChambreIndicators4" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+  </div>
+</div>
+
+
+
+<!-- SECTION CHAMBRE PRICE -->
+  <div class="container my-5">
     <div class="row">
-      <div class="col-lg-8 detail-boxShadow">
+      <div class="col-lg-8 detail-boxShadow detail-price text-uppercase">
 
         <div class="row mt-3">
           <div class="col-lg-8">
-            <h3>CHAMBRE CONFORT</h3>
-            <p>Tarif a partir de : 72 €</p>
+            <a href="#"><h3>chambre confort</h3></a>
+            <p>Tarif à partir de : <span>72 <span>€</span></span></p>
           </div>
           <div class="col-lg-2">
-            <img src="assets/images/detail/chambreconfort.jpg" alt="">
+            <a data-toggle="modal" data-target=".detail-modalChambre1"><img src="assets/images/detail/chambreconfort.jpg" alt=""></a>
           </div>
         </div>
 
-        <div class="row mt-3">
+        <div class="row mt-4">
           <div class="col-lg-8">
-            <h3>CHAMBRE CONFORT</h3>
-            <p>Tarif a partir de : 72 €</p>
+            <a href="#"><h3>Chambre Supérieur</h3></a>
+            <p>Tarif à partir de : <span>72 <span>€</span></span></p>
           </div>
           <div class="col-lg-2">
-            <img src="assets/images/detail/chambre-double.jpg" alt="">
+            <a data-toggle="modal" data-target=".detail-modalChambre2"><img src="assets/images/detail/chambre-double.jpg" alt=""></a>
           </div>
         </div>
 
-        <div class="row mt-3">
+        <div class="row mt-4">
           <div class="col-lg-8">
-            <h3>CHAMBRE CONFORT</h3>
-            <p>Tarif a partir de : 72 €</p>
+            <a href="#"><h3>Chambre familliale</h3></a>
+            <p>Tarif à partir de : <span>82 <span>€</span></span></p>
           </div>
           <div class="col-lg-2">
-            <img src="assets/images/detail/chambrefamilliale.jpg" alt="">
+            <a data-toggle="modal" data-target=".detail-modalChambre3"><img src="assets/images/detail/chambrefamilliale.jpg" alt=""></a>
           </div>
         </div>
 
-        <div class="row mt-3">
+        <div class="row mt-4">
           <div class="col-lg-8">
-            <h3>CHAMBRE CONFORT</h3>
-            <p>Tarif a partir de : 72 €</p>
+            <a href="#"><h3>Chambre triple</h3></a>
+            <p>Tarif à partir de : <span>119<span>€</span></span></p>
           </div>
           <div class="col-lg-2">
-            <img src="assets/images/detail/chambremini1.jpg" alt="">
+            <a data-toggle="modal" data-target=".detail-modalChambre4"><img src="assets/images/detail/chambremini1.jpg" alt=""></a>
           </div>
         </div>
 
@@ -240,24 +400,29 @@
               visite, commerces et sites a visiter.</p>
             </div>
             <div class="button-group mt-2 mx-auto col-lg-7 d-flex flex-column">
-              <button type="button" class="bg-transparent text-white btn btn-outline-dark text-uppercase px-5 py-3">nos bureaux informations</button>
-              <button type="button" class="bg-transparent text-white btn btn-outline-dark text-uppercase px-5 py-3 mt-5" >nous contactez</button>
+              <button type="button" class="bg-transparent text-white text-uppercase px-5 py-3">nos bureaux informations</button>
+              <button type="button" class="bg-transparent text-white  text-uppercase px-5 py-3 mt-5" >nous contactez</button>
             </div>
           </div>
-          <p>suivez-nous</p>
+          <p class="text-left pt-4 footer-network text-uppercase">suivez-nous
+            <img src="assets/images/detail/twitter-icon.png" class="ml-4" width="22px" alt="">
+            <img src="assets/images/detail/icon-fb.png" class="mx-2" width="22px" alt="">
+            <img src="assets/images/detail/icon-instagram.png" width="22px"  alt="">
+          </p>
     </div>
-    <div class="col-lg-2 d-flex flex-column justify-content-center text-center">
+    <div class="col-lg-2 d-flex flex-column justify-content-center text-center footer-guide mt-5">
       <h5 class="text-uppercase">Laissez vous guidez</h5>
       <p>Consultez nos brochures
           détaillées pour facilter la
           découverte de notre ville</p>
 
-      <img src="assets/images/detail/couverture-flyers.jpg" width="200px" height="300px" class="mx-auto mt-5">
-      <button type="button" class="bg-transparent text-white btn btn-outline-dark text-uppercase px-5 py-3 mt-5" name="button">Nos brochures</button>
+      <img src="assets/images/detail/couverture-flyers.jpg" width="150px" height="250px" class="mx-auto mt-5">
+      <button type="button" class="bg-transparent text-white text-uppercase px-2 py-3 mt-5 footer-btn-brochure" name="button">Nos brochures</button>
     </div>
-    <div class="col-lg-4 d-flex flex-column justify-content-center p-5 mr-5 mx-auto">
-      <button type="button" class="bg-transparent text-white btn btn-outline-dark text-uppercase px-5 py-3 mx-auto" name="button">S'inscrire à la newletter</button>
-      <img src="assets/images/detail/carte-beauvais-footer.png" width="500px" height="500px" class="mx-auto mt-5" alt="">
+
+    <div class="offset-1 col-lg-4 d-flex flex-column justify-content-center footer-lign">
+      <button type="button" class="bg-transparent text-white text-uppercase px-5 py-3 footer-btn-newletter mt-4 mb-5" name="button">S'inscrire à la newletter</button>
+      <img src="assets/images/detail/carte-beauvais-footer.png" width="400px" height="400px" class="mx-auto" alt="">
     </div>
 
   </div>
