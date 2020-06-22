@@ -299,6 +299,8 @@ footer button{
   font-size: 1.4rem;
   border : 2px solid #b9532b;
   border-radius: .1rem;
+  background-color: transparent;
+  color: white;
 }
 footer button:hover{
   background-color: white;
@@ -320,10 +322,6 @@ footer hr {
 .footer-btn-newletter {
   width: 320px;
   margin: auto;
-}
-.footer-btn-newletter:active {
-  background-color: white;
-  color: var(--orange);
 }
 .button-group {
   width: 20rem;

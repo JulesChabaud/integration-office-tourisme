@@ -400,8 +400,8 @@
               visite, commerces et sites a visiter.</p>
             </div>
             <div class="button-group mt-2 mx-auto col-lg-7 d-flex flex-column">
-              <button type="button" class="bg-transparent text-white text-uppercase px-5 py-3">nos bureaux informations</button>
-              <button type="button" class="bg-transparent text-white  text-uppercase px-5 py-3 mt-5" >nous contactez</button>
+              <button type="button" class="text-uppercase px-5 py-3">nos bureaux informations</button>
+              <button type="button" class="text-uppercase px-5 py-3 mt-5" >nous contactez</button>
             </div>
           </div>
           <p class="text-left pt-4 footer-network text-uppercase">suivez-nous
@@ -417,11 +417,11 @@
           découverte de notre ville</p>
 
       <img src="assets/images/detail/couverture-flyers.jpg" width="150px" height="250px" class="mx-auto mt-5">
-      <button type="button" class="bg-transparent text-white text-uppercase px-2 py-3 mt-5 footer-btn-brochure" name="button">Nos brochures</button>
+      <button type="button" class="text-uppercase px-2 py-3 mt-5 footer-btn-brochure" name="button">Nos brochures</button>
     </div>
 
     <div class="offset-1 col-lg-4 d-flex flex-column justify-content-center footer-lign">
-      <button type="button" class="bg-transparent text-white text-uppercase px-5 py-3 footer-btn-newletter mt-4 mb-5" name="button">S'inscrire à la newletter</button>
+      <button type="button" class="text-uppercase px-5 py-3 footer-btn-newletter mt-4 mb-5" name="button">S'inscrire à la newletter</button>
       <img src="assets/images/detail/carte-beauvais-footer.png" width="400px" height="400px" class="mx-auto" alt="">
     </div>
 
