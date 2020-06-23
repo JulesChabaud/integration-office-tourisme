@@ -22,14 +22,14 @@
     <div class="row detail-BurgerMenuDropDownDescription">
 
       <div class="col-lg-11">
-        <h2>Séjourner</h2>
-        <h2 class="pt-3">Manger</h2>
-        <h2 class="pt-3">Idée Week-end</h2>
-        <h2>Carte intéractive</h2>
-        <h2 class="pt-3">Groupe</h2>
-        <h2 class="pt-3">Pratique</h2>
-        <h2 class="pt-3">Boutique en ligne</h2>
-        <h2 class="pt-3">Découvrir</h2>
+        <a href="#"><h2>Séjourner</h2></a>
+        <a href="#"><h2 class="pt-3">Manger</h2></a>
+        <a href="#"><h2 class="pt-3">Idée Week-end</h2></a>
+        <a href="#"><h2>Carte intéractive</h2></a>
+        <a href="#"><h2 class="pt-3">Groupe</h2></a>
+        <a href="#"><h2 class="pt-3">Pratique</h2></a>
+        <a href="#"><h2 class="pt-3">Boutique en ligne</h2></a>
+        <a href="#"><h2 class="pt-3">Découvrir</h2></a>
       </div>
 
       <div class="col-lg-1 d-flex align-items-center justify-content-between flex-column">
@@ -68,17 +68,17 @@
     </div>
 
     <div class="text-breadcrumbs">
-      <a href="#"><h3 class="text-uppercase text-fontOrange"><span class="font-weight-bold">A</span>ccueil ></h3></a>
+      <a href="home.php"><h3 class="text-uppercase text-fontOrange"><span class="font-weight-bold">A</span>ccueil ></h3></a>
       <a href="#"><h3 class="text-uppercase text-fontOrange"><span class="font-weight-bold">A</span>éroport de Paris Beauvais ></h3></a>
       <a href="#"><h3 class="text-uppercase text-fontBlack"><span class="font-weight-bold">P</span>aris Beauvais</h3></a>
     </div>
   </header>
 
 <!-- SECTION SERVICE -->
-  <section>
+  <section class="text-sectionServices">
 
     <div class="text-titleServices">
-      <h2 class="text-uppercase"><span class="text-fontPurple">Les services <br></span><span class="text-fontWhite">de l'aéroport</span></h2>
+      <h2 class="text-uppercase"><span class="text-fontPurple">Les services <br></span><span class="text-fontWhite text-mobileFontPurple">de l'aéroport</span></h2>
       <img class="text-iconRestau" src="assets/images/text/text-iconRestauServices.png" alt="icone restaurant"/>
     </div>
 
@@ -126,11 +126,49 @@
       <h2 class="text-uppercase font-weight-bold"><span class="text-fontPurple">Comment s'y rendre<br></span><span class="text-fontWhite">/ se déplacer ?</span></h2>
     </div>
 
+<div class="row m-0">
+  <div class="col-lg-6">
+    <img class="text-chevronGauche" src="assets/images/text/text-chevronGauche.png" alt="chevron gauche"/>
+    <div class="text-navette">
+      <h3 class="text-titleNavette text-fontPurple font-weight-bold">En navette</h3>
+      <img src="assets/images/text/text-navette.jpg" alt="image navette"/>
+      <p class="text-pNavette">De nombreuses navettes relient le centre de Paris (porte de Maillot - Parking Pershing) à l'aéroport en 1h15.<br><br>Vous pouvez réserver votre trajet en ligne</p>
+    </div>
+  </div>
 
+  <div class="col-lg-6">
+    <img class="text-chevronDroit" src="assets/images/text/text-chevronDroit.png" alt="chevron droit"/>
+    <div class="text-bus">
+      <h3 class="text-titleBus text-fontPurple font-weight-bold">En bus</h3>
+      <img src="assets/images/text/text-bus.jpg" alt="image bus"/>
+      <p class="text-pBus">La ligne numéro 06 vous emmène directement au centre-ville de Beauvais où vous pourrez profitez de ses monuments historiques, de ses bars, restaurants et de ses nombreuses boutiques.</p>
+    </div>
+  </div>
+</div>
 
   </section>
 
+<!-- SECTION COMPAGNIES -->
+  <section class="text-compagnies">
+    <div class="text-titleCompagnies">
+      <h2 class="text-uppercase font-weight-bold text-fontPurple">Les compagnies<br>aériennes</h2>
+      <img class="text-iconAvion" src="assets/images/text/text-iconAvion.png" alt="icone avion"/>
+    </div>
+    <div class="text-logoCompagnies">
+      <a href="#"><img src="assets/images/text/text-logoRayanair.jpg" alt="logo Rayanair"/></a>
+      <a href="#"><img src="assets/images/text/text-logoBlueair.png" alt="logo Blue air"/></a>
+      <a href="#"><img src="assets/images/text/text-logoMoldova.png" alt="logo Air Moldova"/></a>
+      <a href="#"><img src="assets/images/text/text-logoLauda.png" alt="logo Laudamotion"/></a>
+    </div>
+    <div class="text-logoCompagnies text-mobileLogoCompagnies">
+      <a href="#"><img src="assets/images/text/text-logoVolotea.png" alt="logo Volotea"/></a>
+      <a href="#"><img src="assets/images/text/text-logoSkyup.png" alt="logo SkyUp Airlines"/></a>
+      <a href="#"><img src="assets/images/text/text-logoWizz.png" alt="logo Wizz"/></a>
 
+    </div>
+
+
+  </section>
 
 
 

@@ -1,10 +1,42 @@
+/*NAVBAR*/
+#detail-burgerMenuDropDown {
+  background-color : var(--orange);
+  height: 1000px;
+  display: none;
+}
+.detail-container {
+  margin-top : -50px;
+}
+#detail-burgerMenuDropDown h2 {
+  color: white;
+  font-weight: 700;
+  font-size: 3rem;
+}
+#detail-burgerMenu nav {
+  height: 160px;
+}
+.detail-BurgerMenuDropDownDescription {
+  margin-top: -40px;
+}
+.detail-BurgerMenuDropDownDescription a {
+  color: white;
+}
+.detail-BurgerMenuDropDownDescription a {
+  text-decoration: none;
+}
+#detail-burgerMenuDropDown h2:hover  {
+  font-size: 3.5rem;
+}
 .text-h1 {
   color: var(--orange);
   display: flex;
   font-family: "Helvetica Neue LT Std 47 Light Condensed";
   font-weight: bold;
   font-size: 3.5rem;
+  margin-top: 80px;
 }
+
+/*SECTION BANNER*/
 .text-header {
   height: 800px;
   position: relative;
@@ -66,6 +98,8 @@
 .text-breadcrumbs h3{
   font-size: 1rem;
 }
+
+/*SECTION SERVICES*/
 .text-titleServices {
   font-family: "Helvetica Neue LT Std 47 Light Condensed";
   padding-left: 160px;
@@ -102,8 +136,8 @@
   margin-left: 160px;
   margin-right: 160px;
   background-color: white;
-  border-top: 10px solid var(--gray);
-  border-right: 10px solid var(--gray);
+  border-top: 10px solid #c9c8c9;
+  border-right: 10px solid #c9c8c9;
   border-bottom: 2px solid var(--black);
   border-left: 1px solid var(--black);
   padding-top: 3%;
@@ -143,8 +177,8 @@
   width: 50%;
   margin: auto;
   background-color: white;
-  border-top: 10px solid var(--gray);
-  border-right: 10px solid var(--gray);
+  border-top: 10px solid #c9c8c9;
+  border-right: 10px solid #c9c8c9;
   border-bottom: 2px solid var(--black);
   border-left: 1px solid var(--black);
   padding-top: 2%;
@@ -165,10 +199,14 @@
   justify-content: center;
   padding-top: 40px;
 }
+
+/*SECTION TRANSPORT*/
 .text-transport {
   background-color: var(--purple);
-  height: 1388px;
+  height: 900px;
   margin-top: 150px;
+  position: relative;
+  z-index: 2;
 }
 .text-titleTransport {
   font-family: "Helvetica Neue LT Std 47 Light Condensed";
@@ -188,5 +226,286 @@
   width: 25%;
   position: relative;
   bottom: 62px;
+}
 
+/*SECTION COMPAGNIES*/
+.text-compagnies {
+  background-color: var(--gray);
+  height: 930px;
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+.text-titleCompagnies {
+  font-family: "Helvetica Neue LT Std 47 Light Condensed";
+  padding-left: 160px;
+  display: flex;
+  position: absolute;
+  margin-top: -35px;
+}
+.text-iconAvion {
+  width: 30%;
+  position: relative;
+  bottom: 22px;
+  left: 30px;
+
+}
+.text-logoCompagnies {
+  padding-left: 160px;
+  padding-right: 160px;
+  padding-top: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.text-logoCompagnies img {
+  width: 80%;
+}
+.text-titleNavette {
+  font-family: "Helvetica Neue LT Std 47 Light Condensed";
+  background-color: white;
+  width:30%;
+  border-radius: 8px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: absolute;
+  top: 130px;
+  left: 80px;
+  z-index: 2;
+}
+.text-pNavette {
+  font-family: "Helvetica Neue LT Std 47 Light Condensed";
+  background-color: white;
+  width: 60%;
+  border-radius: 8px;
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  position: absolute;
+  margin-top: -120px;
+  left: 220px;
+  z-index: -1;
+}
+.text-pBus {
+  font-family: "Helvetica Neue LT Std 47 Light Condensed";
+  background-color: white;
+  text-align: justify;
+  width: 60%;
+  border-radius: 8px;
+  padding-top: 150px;
+  padding-bottom: 70px;
+  padding-left: 30px;
+  padding-right: 30px;
+  position: absolute;
+  margin-top: -120px;
+  left: 190px;
+  bottom: -187px;
+  z-index: -1;
+}
+.text-navette img {
+  width: 60%;
+  position: relative;
+  margin-left: 130px;
+  margin-top: 180px;
+}
+.text-bus img {
+  width: 60%;
+  position: relative;
+  margin-right: 200px;
+  margin-top: 180px;
+}
+.text-bus {
+  display: flex;
+  justify-content: flex-end;
+}
+.text-titleBus {
+  font-family: "Helvetica Neue LT Std 47 Light Condensed";
+  background-color: white;
+  width:30%;
+  border-radius: 8px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: absolute;
+  top: 130px;
+  right: 500px;
+  z-index: 2;
+}
+.text-chevronGauche {
+  width: 10%;
+  position: absolute;
+  top: 70%;
+}
+.text-chevronDroit {
+  width: 10%;
+  position: absolute;
+  top: 70%;
+  right: 20px;
+}
+
+/*VERSION MOBILE*/
+@media (max-width: 767px){
+/*SECTION NAVBAR*/
+
+/*SECTION BANNER*/
+.text-containerBanner {
+  display: none;
+}
+.text-h1 {
+
+}
+.text-breadcrumbs {
+  display: none;
+}
+.text-header {
+  height: 200px;
+}
+
+/*SECTION SERVICES*/
+.text-sectionServices {
+  margin-bottom: 230px;
+}
+.text-titleServices {
+  padding-left: 0;
+  font-size: 1rem;
+  display: block;
+  text-align: center;
+  position: relative;
+  top: 50px;
+}
+.text-titleServices h2 {
+  padding-top: 0px;
+}
+.text-imgServices {
+  display: none;
+}
+.text-encadreText {
+  padding: 2%;
+  margin-top: 80px;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: inherit;
+  border: none;
+  box-shadow: -5px 0px 10px #555;
+}
+.text-infoWifiAtm {
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 122px;
+  padding-left: 3%;
+  padding-right: 3%;
+  text-align: center;
+  padding-top: 60%;
+  height: 765px;
+}
+.text-servicesWifiIcon{
+  text-align: center;
+  padding-right: 0;
+  padding-bottom: 10%;
+}
+.text-wifi {
+  display: block;
+}
+.text-atm {
+  display: block;
+}
+.text-etInfo {
+  width: 85%;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: none;
+  box-shadow: -5px 0px 10px #555;
+}
+.text-symboleEt {
+  margin-top: -25px;
+}
+.text-symboleEt img{
+  width: 10%;
+}
+.text-infoText {
+  padding-top: 15px;
+  text-align: center;
+}
+.text-mobileFontPurple {
+  color: var(--purple);
+}
+
+/*SECTION TRANSPORT*/
+.text-chevronGauche {
+  display: none;
+}
+.text-chevronDroit {
+  display: none;
+}
+.text-titleTransport {
+  padding-right: 25px;
+  display: block;
+  text-align: center;
+  margin-top: -106px;
+}
+.text-iconTransport {
+  bottom: 30px;
+}
+.text-titleNavette {
+  width: 40%;
+  font-size: 1.2rem;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-top: 53px;
+  margin-left: 16px;
+  background-color: var(--purple);
+  color: white;
+  border-radius: 25px;
+}
+.text-navette img {
+  margin-top: 70px;
+  margin-left: 58px;
+}
+.text-pNavette {
+  position: inherit;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: -20px;
+  padding-top: 25%;
+  padding-left: 3%;
+  padding-right: 3%;
+  border-radius: 50px;
+}
+.text-bus {
+  display: none;
+}
+.text-transport {
+  height: 500px;
+}
+
+/*SECTION COMPAGNIES*/
+.text-titleCompagnies {
+  display: block;
+  padding-left: 18%;
+}
+.text-compagnies {
+  height: 720px;
+  text-align: center;
+}
+.text-logoCompagnies {
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 105px;
+  display: block;
+}
+.text-mobileLogoCompagnies {
+  padding-top: 0px;
+}
+.text-logoCompagnies img {
+  width: 40%;
+  padding-bottom: 10%;
+  display: block;
+  margin: auto;
+}
+.text-iconAvion {
+  position: absolute;
+  margin-left: 34%;
+  margin-bottom: 75px;
 }
