@@ -471,23 +471,30 @@
 
 /*SECTION COMPAGNIES*/
 .text-titleCompagnies {
-  padding: inherit;
   display: block;
-  text-align: center;
-
-
+  padding-left: 18%;
 }
 .text-compagnies {
-  height: 614px;
-
+  height: 720px;
+  text-align: center;
 }
 .text-logoCompagnies {
-  padding-left: 18%;
-  padding-right: 3%;
-  padding-top: 0px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 105px;
   display: block;
 }
+.text-mobileLogoCompagnies {
+  padding-top: 0px;
+}
 .text-logoCompagnies img {
-  width: 50%;
+  width: 40%;
   padding-bottom: 10%;
+  display: block;
+  margin: auto;
+}
+.text-iconAvion {
+  position: absolute;
+  margin-left: 34%;
+  margin-bottom: 75px;
 }

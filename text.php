@@ -160,7 +160,7 @@
       <a href="#"><img src="assets/images/text/text-logoMoldova.png" alt="logo Air Moldova"/></a>
       <a href="#"><img src="assets/images/text/text-logoLauda.png" alt="logo Laudamotion"/></a>
     </div>
-    <div class="text-logoCompagnies">
+    <div class="text-logoCompagnies text-mobileLogoCompagnies">
       <a href="#"><img src="assets/images/text/text-logoVolotea.png" alt="logo Volotea"/></a>
       <a href="#"><img src="assets/images/text/text-logoSkyup.png" alt="logo SkyUp Airlines"/></a>
       <a href="#"><img src="assets/images/text/text-logoWizz.png" alt="logo Wizz"/></a>
