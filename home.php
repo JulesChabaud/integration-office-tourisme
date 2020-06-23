@@ -231,12 +231,114 @@
 
   </div>
 
+</div class="home-megaWrapper">
+
+
+<div class="home-megaWrapperMobile">
+
   <!--media-queries-->
 
-  <div class="">
+  <div class="home-mobileContainerHeader">
+    <img class="w-100" src="assets/images/home/mobile/image-header-mobile.png" alt="First slide">
+  </div>
+
+  <div class="home-mobileContainerCovid text-white">
+    <p>INFO COVID - 19</p>
+  </div>
+
+  <div class="home-mobileContainerAgenda position-relative">
+    <p class="home-mobileTextAgenda1">L'agenda de Beauvais</p>
+    <p class="home-mobileTextAgenda2">Les évenements a ne pas rater sur Beauvais</p>
+      <div class="d-flex justify-content-center">
+        <img class="home-mobileImgAgenda" src="assets/images/home/mobile/tenture-web.png" alt="First slide">
+      </div>
+    <p class="home-mobileAgendaDateMois">21 <span class="home-mobileAgendaDateMois">MAI</span> 2020 - 29 <span class="home-mobileAgendaDateMois">MAI</span> 2020</p>
+    <p class="home-mobileAgendaSousTitre">LA TENTURE DE L'HISTOIRE<br>FABULEUSE DES GAULES</p>
+
+
+
+        <div class="d-flex justify-content-center">
+          <img class="home-mobileAgendaFlecheNext" src="assets/images/home/mobile/Fleche-gauche.png" alt="First slide">
+          <img class="home-mobileAgendaFlechePrev" src="assets/images/home/mobile/fleche-droite.png" alt="First slide">
+        </div>
+
+
+
+        <div class=" d-flex justify-content-end">
+          <img class="home-mobileAgendaBouton" src="assets/images/home/mobile/tout-lagenda.png" alt="First slide">
+        </div>
+
+
+
+      <div class="home-mobileContainerActivites">
+        <div class="container">
+          <div class="row">
+            <div class="col-6 d-flex justify-content-center">
+              <div class="card-trnsparent" style="width: 40px; height: auto;">
+                <img class="card-img-top" src="assets/images/home/mobile/cathedrale.png" alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text text-white justify-content-center">Catédrale de Beauvais</p>
+              </div>
+              </div>
+            </div>
+            <div class="col-6 d-flex justify-content-center">
+              <p>Aéroport Paris - Beauvais</p>
+              <img class="home-mobileLogoActivites" src="assets/images/home/mobile/aeroport.png" alt="First slide">
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-6 d-flex justify-content-center">
+              <img class="home-mobileLogoActivites" src="assets/images/home/mobile/shopping-logo.png" alt="First slide">
+              <p>SHOPPING</p>
+            </div>
+            <div class="col-6 d-flex justify-content-center">
+              <p>LES ENFANTS SONT EN VACANCES</p>
+              <img class="home-mobileLogoActivites" src="assets/images/home/mobile/enfant-logo.png" alt="First slide">
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-6 d-flex justify-content-center">
+              <img class="home-mobileLogoActivites" src="assets/images/home/mobile/umbrella-logo.png" alt="First slide">
+              <p>IL PLEUT</p>
+            </div>
+            <div class="col-6 d-flex justify-content-center">
+              <p>J'AI 2 HEURES</p>
+              <img class="home-mobileLogoActivites" src="assets/images/home/mobile/clock-logo.png" alt="First slide">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid home-mobileContainerForfaits1">
+        <p class="text-white home-mobileTextForfaits">NOS FORFAITS GROUPES</p>
+      </div>
+
+      <div class="container-fluid home-mobileContainerForfaits2">
+        <p class="text-white home-mobileTextForfaits">NOS IDEES WEEK-END</p>
+      </div>
+
+      <div class="d-flex justify-content-center home-mobileHotelImg1">
+        <img class="home-mobileImgAgenda" src="assets/images/home/mobile/massage.png" alt="First slide">
+      </div>
+      <div class="d-flex justify-content-center">
+        <img class="home-mobileImgAgenda" src="assets/images/home/mobile/massage.png" alt="First slide">
+      </div>
+
+
+      <div class="d-flex justify-content-center home-mobileHotelImg2">
+        <img class="home-mobileImgAgenda" src="assets/images/home/mobile/hotel-room.png" alt="First slide">
+      </div>
+      <div class="d-flex justify-content-center">
+        <img class="home-mobileImgAgenda" src="assets/images/home/mobile/massage.png" alt="First slide">
+      </div>
+
 
   </div>
-  
-<div class="home-megaWrapper">
 
 <?php include "footer.php" ?>
