@@ -10,7 +10,7 @@ function closeBurgerMenu() {
 }
 
 function openConfort() {
-  document.getElementById('detail-confortMore').style.display = 'block';
+  document.getElementById('detail-confortMoreDropDown').style.display = 'block';
   document.getElementById('detail-confortIconMore').style.display = 'none';
   document.getElementById('detail-description').style.height = '900px';
 }
