@@ -1,10 +1,42 @@
+/*NAVBAR*/
+#detail-burgerMenuDropDown {
+  background-color : var(--orange);
+  height: 1000px;
+  display: none;
+}
+.detail-container {
+  margin-top : -50px;
+}
+#detail-burgerMenuDropDown h2 {
+  color: white;
+  font-weight: 700;
+  font-size: 3rem;
+}
+#detail-burgerMenu nav {
+  height: 160px;
+}
+.detail-BurgerMenuDropDownDescription {
+  margin-top: -40px;
+}
+.detail-BurgerMenuDropDownDescription a {
+  color: white;
+}
+.detail-BurgerMenuDropDownDescription a {
+  text-decoration: none;
+}
+#detail-burgerMenuDropDown h2:hover  {
+  font-size: 3.5rem;
+}
 .text-h1 {
   color: var(--orange);
   display: flex;
   font-family: "Helvetica Neue LT Std 47 Light Condensed";
   font-weight: bold;
   font-size: 3.5rem;
+  margin-top: 80px;
 }
+
+/*SECTION BANNER*/
 .text-header {
   height: 800px;
   position: relative;
@@ -66,6 +98,8 @@
 .text-breadcrumbs h3{
   font-size: 1rem;
 }
+
+/*SECTION SERVICES*/
 .text-titleServices {
   font-family: "Helvetica Neue LT Std 47 Light Condensed";
   padding-left: 160px;
@@ -165,6 +199,8 @@
   justify-content: center;
   padding-top: 40px;
 }
+
+/*SECTION TRANSPORT*/
 .text-transport {
   background-color: var(--purple);
   height: 900px;
@@ -190,8 +226,9 @@
   width: 25%;
   position: relative;
   bottom: 62px;
-
 }
+
+/*SECTION COMPAGNIES*/
 .text-compagnies {
   background-color: var(--gray);
   height: 930px;
@@ -206,6 +243,10 @@
   margin-top: -35px;
 }
 .text-iconAvion {
+  width: 30%;
+  position: relative;
+  bottom: 22px;
+  left: 30px;
 
 }
 .text-logoCompagnies {
@@ -302,4 +343,151 @@
   position: absolute;
   top: 70%;
   right: 20px;
+}
+
+/*VERSION MOBILE*/
+@media (max-width: 767px){
+/*SECTION NAVBAR*/
+
+/*SECTION BANNER*/
+.text-containerBanner {
+  display: none;
+}
+.text-h1 {
+
+}
+.text-breadcrumbs {
+  display: none;
+}
+.text-header {
+  height: 262px;
+}
+
+/*SECTION SERVICES*/
+.text-sectionServices {
+  margin-bottom: 230px;
+}
+.text-titleServices {
+  padding-left: 0;
+  font-size: 1rem;
+  display: block;
+  text-align: center;
+  position: relative;
+  top: 50px;
+}
+.text-imgServices {
+  display: none;
+}
+.text-encadreText {
+  padding: 2%;
+  margin-top: 80px;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: inherit;
+}
+.text-infoWifiAtm {
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 122px;
+  padding-left: 3%;
+  padding-right: 3%;
+  text-align: center;
+  padding-top: 60%;
+  height: 765px;
+}
+.text-fontWhite {
+  ;
+}
+.text-servicesWifiIcon{
+  text-align: center;
+  padding-right: 0;
+  padding-bottom: 10%;
+}
+.text-wifi {
+  display: block;
+}
+.text-atm {
+  display: block;
+}
+.text-etInfo {
+  width: 85%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.text-symboleEt {
+  margin-top: -50px;
+}
+.text-infoText {
+  padding-top: 15px;
+  text-align: center;
+}
+.text-mobileFontPurple {
+  color: var(--purple);
+}
+
+/*SECTION TRANSPORT*/
+.text-chevronGauche {
+  display: none;
+}
+.text-chevronDroit {
+  display: none;
+}
+.text-titleTransport {
+  padding-right: 25px;
+  display: block;
+  text-align: center;
+  margin-top: -106px;
+}
+.text-iconTransport {
+  bottom: 30px;
+}
+.text-titleNavette {
+  width: 50%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-top: 53px;
+  background-color: var(--purple);
+  color: white;
+}
+.text-navette img {
+  margin-top: 70px;
+  margin-left: 58px;
+}
+.text-pNavette {
+  position: inherit;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: -20px;
+  padding-top: 25%;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+.text-bus {
+  display: none;
+}
+.text-transport {
+  height: 500px;
+}
+
+/*SECTION COMPAGNIES*/
+.text-titleCompagnies {
+  padding: inherit;
+  display: block;
+  text-align: center;
+
+
+}
+.text-compagnies {
+  height: 614px;
+
+}
+.text-logoCompagnies {
+  padding-left: 18%;
+  padding-right: 3%;
+  padding-top: 0px;
+  display: block;
+}
+.text-logoCompagnies img {
+  width: 50%;
+  padding-bottom: 10%;
 }

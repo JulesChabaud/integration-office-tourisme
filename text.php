@@ -22,14 +22,14 @@
     <div class="row detail-BurgerMenuDropDownDescription">
 
       <div class="col-lg-11">
-        <h2>Séjourner</h2>
-        <h2 class="pt-3">Manger</h2>
-        <h2 class="pt-3">Idée Week-end</h2>
-        <h2>Carte intéractive</h2>
-        <h2 class="pt-3">Groupe</h2>
-        <h2 class="pt-3">Pratique</h2>
-        <h2 class="pt-3">Boutique en ligne</h2>
-        <h2 class="pt-3">Découvrir</h2>
+        <a href="#"><h2>Séjourner</h2></a>
+        <a href="#"><h2 class="pt-3">Manger</h2></a>
+        <a href="#"><h2 class="pt-3">Idée Week-end</h2></a>
+        <a href="#"><h2>Carte intéractive</h2></a>
+        <a href="#"><h2 class="pt-3">Groupe</h2></a>
+        <a href="#"><h2 class="pt-3">Pratique</h2></a>
+        <a href="#"><h2 class="pt-3">Boutique en ligne</h2></a>
+        <a href="#"><h2 class="pt-3">Découvrir</h2></a>
       </div>
 
       <div class="col-lg-1 d-flex align-items-center justify-content-between flex-column">
@@ -75,10 +75,10 @@
   </header>
 
 <!-- SECTION SERVICE -->
-  <section>
+  <section class="text-sectionServices">
 
     <div class="text-titleServices">
-      <h2 class="text-uppercase"><span class="text-fontPurple">Les services <br></span><span class="text-fontWhite">de l'aéroport</span></h2>
+      <h2 class="text-uppercase"><span class="text-fontPurple">Les services <br></span><span class="text-fontWhite text-mobileFontPurple">de l'aéroport</span></h2>
       <img class="text-iconRestau" src="assets/images/text/text-iconRestauServices.png" alt="icone restaurant"/>
     </div>
 
