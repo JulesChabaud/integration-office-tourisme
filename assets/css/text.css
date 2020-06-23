@@ -360,7 +360,7 @@
   display: none;
 }
 .text-header {
-  height: 262px;
+  height: 200px;
 }
 
 /*SECTION SERVICES*/
@@ -375,6 +375,9 @@
   position: relative;
   top: 50px;
 }
+.text-titleServices h2 {
+  padding-top: 0px;
+}
 .text-imgServices {
   display: none;
 }
@@ -384,6 +387,8 @@
   margin-left: 10%;
   margin-right: 10%;
   font-size: inherit;
+  border: none;
+  box-shadow: -5px 0px 10px #555;
 }
 .text-infoWifiAtm {
   margin-left: 3%;
@@ -394,9 +399,6 @@
   text-align: center;
   padding-top: 60%;
   height: 765px;
-}
-.text-fontWhite {
-  ;
 }
 .text-servicesWifiIcon{
   text-align: center;
@@ -413,9 +415,14 @@
   width: 85%;
   padding-left: 30px;
   padding-right: 30px;
+  border: none;
+  box-shadow: -5px 0px 10px #555;
 }
 .text-symboleEt {
-  margin-top: -50px;
+  margin-top: -25px;
+}
+.text-symboleEt img{
+  width: 10%;
 }
 .text-infoText {
   padding-top: 15px;
@@ -442,12 +449,15 @@
   bottom: 30px;
 }
 .text-titleNavette {
-  width: 50%;
+  width: 40%;
+  font-size: 1.2rem;
   padding-top: 2%;
   padding-bottom: 2%;
   margin-top: 53px;
+  margin-left: 16px;
   background-color: var(--purple);
   color: white;
+  border-radius: 25px;
 }
 .text-navette img {
   margin-top: 70px;
@@ -461,6 +471,7 @@
   padding-top: 25%;
   padding-left: 3%;
   padding-right: 3%;
+  border-radius: 50px;
 }
 .text-bus {
   display: none;
