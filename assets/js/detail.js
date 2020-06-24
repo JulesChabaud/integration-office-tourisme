@@ -83,24 +83,47 @@ document.getElementById('detail-confortMoreWindows').addEventListener("mouseleav
 });
 
 
-/************ JQUERY ****************/
 
-if (window.innerWidth > 768) {
+$(window).bind('resize',function(){
 
-  var modal = document.getElementById("detail-bannerModal");
-  var img = document.getElementById("detail-banner");
-  var modalImg = document.getElementById("detail-modalImg");
+  if (window.innerWidth > 768) {
 
-    img.onclick = function(){
-    modal.style.display = "block";
-    modalImg.src = this.src;
-    captionText.innerHTML = this.alt;
+    var detailBannerModal = document.getElementById("detail-bannerModal");
+    var detailImgBanner = document.getElementById("detail-banner");
+    var detailModalImg = document.getElementById("detail-modalImg");
+
+      detailImgBanner.onclick = function(){
+        detailBannerModal.style.display = "block";
+        detailModalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+
+    }
+
+    var detailSpan = document.getElementsByClassName("detail-bannerModalClose")[0];
+    detailSpan.onclick = function() {
+      detailBannerModal.style.display = "none";
+    }
   }
 
-  var span = document.getElementsByClassName("detail-bannerModalClose")[0];
-  span.onclick = function() {
-    modal.style.display = "none";
-  }
-} else {
-  alert(window.innerWidth);
-}
+});
+
+
+
+/*
+  (function() {
+    var detailAdressCarousel = document.getElementById("detail-CarouselAdress");
+    var memoPositiondetailAdressCarousel = detailAdressCarousel.offsetTop;
+
+    function sticky(){
+      if(window.pageYOffset > memoPositiondetailAdressCarousel){
+        detailAdressCarousel.classList.remove = "position-absolute";
+        detailAdressCarousel.style.position = "fixed";
+        detailAdressCarousel.style.top = 0;
+        detailAdressCarousel.style.zIndex = 999;
+      }
+
+    }
+    // evenement
+    window.addEventListener("scroll", sticky);
+  })()
+*/

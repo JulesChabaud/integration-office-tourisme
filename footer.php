@@ -6,7 +6,7 @@
               <img src="assets/images/detail/logo-white.png" width="230px" alt="Logo">
               <div class="row mt-2">
                 <div class="offset-2 col-8 d-flex flex-column">
-                  <p class="text-left">La ville de beauvais situé au coeur de sa régon historique
+                  <p class="text-left footer-BeauvaisDescriptionDesktop">La ville de beauvais situé au coeur de sa régon historique
                     la picardie, est célèbre pour sa cathedrale gothique et ses
                     illuminations. Notre ville offre de nombreux parcours de
                     visite, commerces et sites a visiter.</p>
@@ -28,8 +28,8 @@
                 détaillées pour facilter la
                 découverte de notre ville</p>
 
-            <img src="assets/images/detail/couverture-flyers.jpg" width="150px" height="250px" class="mx-auto mt-5">
-            <button type="button" class="text-uppercase px-2 py-3 mt-5 footer-btn-brochure" name="button">Nos brochures</button>
+            <img src="assets/images/detail/couverture-flyers.jpg" width="150px" height="250px" class="mx-auto mt-1">
+            <button type="button" class="text-uppercase px-2 py-3 footer-btn-brochure mt-3" name="button">Nos brochures</button>
           </div>
 
           <div class="offset-1 col-lg-4 d-flex flex-column justify-content-center footer-lign">
@@ -54,9 +54,9 @@
            </div>
          </div>
          <p class="pt-4 footer-network text-uppercase">suivez-nous</p>
-         <a href="#"><img src="assets/images/detail/icon-instagram.png" class="ml-4" width="30px"  alt="Icone instagram"></a>
-         <a href="#"><img src="assets/images/detail/icon-fb.png" class="mx-5" width="30x" alt="Icone facebook"></a>
-         <a href="#"><img src="assets/images/detail/twitter-icon.png" width="30px" alt="Icone twitter"></a>
+         <a href="#"><img src="assets/images/detail/icon-instagram.png" class="ml-4" alt="Icone instagram"></a>
+         <a href="#"><img src="assets/images/detail/icon-fb.png" class="mx-5" alt="Icone facebook"></a>
+         <a href="#"><img src="assets/images/detail/twitter-icon.png" alt="Icone twitter"></a>
         </div>
      <!-- END footer MOBILE -->
     </footer>

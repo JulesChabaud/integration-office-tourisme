@@ -200,13 +200,13 @@
                 </ol>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src="assets/images/detail/chambre2.jpg" class="d-block w-100" alt="...">
+                    <img src="assets/images/detail/chambre2.jpg" class="d-block w-100" alt="chambre2">
                   </div>
                   <div class="carousel-item">
-                    <img src="assets/images/detail/chambre2.jpg" class="d-block w-100" alt="...">
+                    <img src="assets/images/detail/chambre2.jpg" class="d-block w-100" alt="chambre2">
                   </div>
                   <div class="carousel-item">
-                    <img src="assets/images/detail/chambre2.jpg" class="d-block w-100" alt="...">
+                    <img src="assets/images/detail/chambre2.jpg" class="d-block w-100" alt="chambre2">
                   </div>
                 </div>
                 <a class="carousel-control-prev" href="#detail-modalChambreIndicators1" role="button" data-slide="prev">

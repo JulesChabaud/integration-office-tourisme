@@ -28,8 +28,8 @@
                 <a href="#"><h2>Découvrir</h2></a>
               </div>
               <div class="col-lg-1 detail-burgerMenuDropDownIcons">
-                <img src="assets/images/detail/meteo-icon.png" width="80px" alt="Icone méteo">
-                <img src="assets/images/detail/location-icon.png" width="50px" alt="Icone location">
+                <img src="assets/images/detail/meteo-icon.png" class="detail-burgerMenuDropDownIconMeteo"  width="80px" alt="Icone méteo">
+                <img src="assets/images/detail/location-icon.png" class="detail-burgerMenuDropDownIconLocation" width="50px" alt="Icone location">
                 <img src="assets/images/detail/discover-icon.png" class="detail-burgerMenuDropDownIconDiscover" width="60px" alt="Icon à découvrir">
               </div>
             </div>
