@@ -12,43 +12,10 @@
   </nav>
 </div>
 
-<div id="detail-burgerMenuDropDown">
-  <img src="assets/images/detail/burger-menu-white.png" class="pt-5 pl-5" alt="Burger menu" onclick="closeBurgerMenu()"/>
-
-  <div class="container detail-container">
-    <div class="d-flex justify-content-center">
-      <img src="assets/images/detail/logo-white.png" width="289px" height="294px" alt="Logo">
-    </div>
-    <div class="row detail-BurgerMenuDropDownDescription">
-
-      <div class="col-lg-11">
-        <a href="#"><h2>Séjourner</h2></a>
-        <a href="#"><h2 class="pt-3">Manger</h2></a>
-        <a href="#"><h2 class="pt-3">Idée Week-end</h2></a>
-        <a href="#"><h2>Carte intéractive</h2></a>
-        <a href="#"><h2 class="pt-3">Groupe</h2></a>
-        <a href="#"><h2 class="pt-3">Pratique</h2></a>
-        <a href="#"><h2 class="pt-3">Boutique en ligne</h2></a>
-        <a href="#"><h2 class="pt-3">Découvrir</h2></a>
-      </div>
-
-      <div class="col-lg-1 d-flex align-items-center justify-content-between flex-column">
-        <img src="assets/images/detail/meteo-icon.png" width="80px" alt="Icone méteo">
-        <img src="assets/images/detail/location-icon.png" width="50px" alt="Icone location">
-        <img src="assets/images/detail/discover-icon.png" class="pb-5" width="60px" alt="Icon à découvrir">
-      </div>
-
-    </div>
-  </div>
-</div>
-<div class="detail-banner">
-</div>
-
-
-
 
 <!-- SECTION BANNER -->
   <header class="text-header">
+
     <div class="text-imgBanner">
       <img class="text-imgBgBanner" src="assets/images/text/page_paris_beauvais.jpg" alt="image avion"/>
       <div class="container-fluid text-containerBanner">
@@ -72,6 +39,7 @@
       <a href="#"><h3 class="text-uppercase text-fontOrange"><span class="font-weight-bold">A</span>éroport de Paris Beauvais ></h3></a>
       <a href="#"><h3 class="text-uppercase text-fontBlack"><span class="font-weight-bold">P</span>aris Beauvais</h3></a>
     </div>
+
   </header>
 
 <!-- SECTION SERVICE -->
@@ -121,6 +89,7 @@
 
 <!-- SECTION TRANSPORT -->
   <section class="text-transport">
+
     <div class="text-titleTransport">
       <img class="text-iconTransport" src="assets/images/text/text-iconTransport.png" alt="icone transport"/>
       <h2 class="text-uppercase font-weight-bold"><span class="text-fontPurple">Comment s'y rendre<br></span><span class="text-fontWhite">/ se déplacer ?</span></h2>
@@ -134,6 +103,15 @@
       <img src="assets/images/text/text-navette.jpg" alt="image navette"/>
       <p class="text-pNavette">De nombreuses navettes relient le centre de Paris (porte de Maillot - Parking Pershing) à l'aéroport en 1h15.<br><br>Vous pouvez réserver votre trajet en ligne</p>
     </div>
+  </div>
+
+  <div class="text-carousselPoint">
+    <img src="assets/images/text/text-carousselPointActive.png" alt="icone caroussel slider"/>
+    <img src="assets/images/text/text-carousselPoint.png" alt="icone caroussel slider"/>
+    <img src="assets/images/text/text-carousselPoint.png" alt="icone caroussel slider"/>
+    <img src="assets/images/text/text-carousselPoint.png" alt="icone caroussel slider"/>
+    <img src="assets/images/text/text-carousselPoint.png" alt="icone caroussel slider"/>
+    <img src="assets/images/text/text-carousselPoint.png" alt="icone caroussel slider"/>
   </div>
 
   <div class="col-lg-6">
@@ -150,16 +128,19 @@
 
 <!-- SECTION COMPAGNIES -->
   <section class="text-compagnies">
+
     <div class="text-titleCompagnies">
       <h2 class="text-uppercase font-weight-bold text-fontPurple">Les compagnies<br>aériennes</h2>
       <img class="text-iconAvion" src="assets/images/text/text-iconAvion.png" alt="icone avion"/>
     </div>
+
     <div class="text-logoCompagnies">
       <a href="#"><img src="assets/images/text/text-logoRayanair.jpg" alt="logo Rayanair"/></a>
       <a href="#"><img src="assets/images/text/text-logoBlueair.png" alt="logo Blue air"/></a>
       <a href="#"><img src="assets/images/text/text-logoMoldova.png" alt="logo Air Moldova"/></a>
       <a href="#"><img src="assets/images/text/text-logoLauda.png" alt="logo Laudamotion"/></a>
     </div>
+
     <div class="text-logoCompagnies text-mobileLogoCompagnies">
       <a href="#"><img src="assets/images/text/text-logoVolotea.png" alt="logo Volotea"/></a>
       <a href="#"><img src="assets/images/text/text-logoSkyup.png" alt="logo SkyUp Airlines"/></a>
@@ -167,15 +148,7 @@
 
     </div>
 
-
   </section>
-
-
-
-
-
-
-
 
 
 <?php include "footer.php" ?>
