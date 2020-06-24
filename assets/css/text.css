@@ -136,10 +136,9 @@
   margin-left: 160px;
   margin-right: 160px;
   background-color: white;
+  box-shadow: -2px 3px 8px #555;
   border-top: 10px solid #c9c8c9;
-  border-right: 10px solid #c9c8c9;
-  border-bottom: 2px solid var(--black);
-  border-left: 1px solid var(--black);
+  border-right: 8px solid #c9c8c9;
   padding-top: 3%;
   padding-bottom: 3%;
   padding-left: 100px;
@@ -177,10 +176,9 @@
   width: 50%;
   margin: auto;
   background-color: white;
+  box-shadow: -2px 3px 8px #555;
   border-top: 10px solid #c9c8c9;
-  border-right: 10px solid #c9c8c9;
-  border-bottom: 2px solid var(--black);
-  border-left: 1px solid var(--black);
+  border-right: 8px solid #c9c8c9;
   padding-top: 2%;
   padding-bottom: 2%;
   padding-left: 80px;
