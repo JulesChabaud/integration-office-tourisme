@@ -1,5 +1,41 @@
 
 
+/* BURGER MENU NAV*/
+#detail-burgerMenuDropDown {
+  background-color : var(--orange);
+  height: 1000px;
+  display: none;
+  position: relative;
+  z-index: 2;
+}
+.detail-container {
+  margin-top : -50px;
+}
+#detail-burgerMenuDropDown h2 {
+
+  font-weight: 700;
+  font-size: 3rem;
+  }
+#detail-burgerMenu nav {
+  height: 160px;
+  top: 50px;
+  z-index: 1;
+}
+.detail-BurgerMenuDropDownDescription {
+  margin-top: -40px;
+}
+.detail-BurgerMenuDropDownDescription a {
+  color: white;
+}
+.detail-BurgerMenuDropDownDescription a {
+  text-decoration: none;
+}
+#detail-burgerMenuDropDown h2:hover  {
+  font-size: 3.5rem;
+}
+
+
+
 
 /*--Indicator-Carousel-Header--*/
 .home-carouselIndicators li{
@@ -120,6 +156,11 @@
   width: 382px;  height: 513px;  box-shadow: 0px 5px 10px 1px rgba(238, 0, 255, .2);
 }
 
+.home-acordeonForfait{
+  width: 1903px;
+  height: auto;
+}
+
 /*--Container-Activités--*/
 .home-logoServices{
   width: 105px;  height: 105px;
@@ -148,9 +189,170 @@
 
 
 
+
+
 /*--media-queries--*/
-@media (max-width: 700px){
+@media (max-width: 900px){
   .home-megaWrapper{
     display: none;
   }
+  .home-megaWrapperMobile{
+    display: block;
+  }
+}
+
+@media (min-width: 900px){
+  .home-megaWrapper{
+    display: block;
+  }
+  .home-megaWrapperMobile{
+    display:none;
+  }
+}
+
+
+/*--MOBILE--*/
+.home-mobileContainerHeader{
+  background-color: white;
+}
+
+.home-mobileContainerCovid{
+  background-color: var(--orange);
+  width: auto;
+  height: 40px;
+  text-align: center;
+  padding-top: 5px;
+  font-family: 'Helvetica Neue LT Std 77 Bold Condensed';
+  font-size: 20px;
+}
+
+.home-mobileTextAgenda1{
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-bottom: 0px;
+  font-family: 'Helvetica Neue LT Std 57 Condensed';
+  color: var(--orange);
+  font-size: 28px;
+}
+
+.home-mobileTextAgenda2{
+  margin-top: 0px;
+  margin-left: 5px;
+  font-family: 'Helvetica Neue LT Std 57 Condensed';
+  color: var(--purple);
+  font-size: 20px;
+}
+
+.home-mobileImgAgenda{
+  width: 230px;
+  height: 130;
+  text-align: center;
+}
+
+.home-mobileAgendaMarginB{
+  margin-bottom: 40px;
+}
+
+.home-mobileAgendaDateMois{
+  font-family: 'Helvetica Neue LT Std 57 Condensed';
+  color: var(--purple);
+  text-align: center;
+  margin-bottom: 0px;
+}
+.home-mobileAgendaDateMois{
+  font-size: 80%;
+}
+
+.home-mobileAgendaSousTitre{
+  font-family: 'Helvetica Neue LT Std 57 Condensed';
+  text-align: center;
+  margin-top: 0px;
+}
+
+.home-mobileAgendaFlechePrev{
+  width: 25px;
+  height: auto;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.home-mobileAgendaFlecheNext{
+  width: 25px;
+  height: auto;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.home-mobileAgendaBouton{
+  margin-right: 1rem;
+  margin-bottom: 20px;
+}
+
+.home-mobileContainerActivites{
+  background-color: #333333;
+}
+
+.home-mobileContainerActivites p{
+  font-family: 'Helvetica Neue LT Std 57 Condensed';
+  color: var(--purple);
+}
+
+.home-mobileActiviteLogoRows{
+  text-align: center;
+}
+
+.home-mobileLogoActivites{
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+}
+
+.home-mobileContainerForfaits1{
+  background-color: var(--orange);
+  height: 100px;
+  text-align: center;
+  font-family: 'Helvetica Neue LT Std 77 Bold Condensed';
+  font-size: 20px;
+  padding: 40px;
+}
+
+.home-mobileContainerForfaits2{
+  background-color: var(--purple);
+  height: 100px;
+  text-align: center;
+  font-family: 'Helvetica Neue LT Std 77 Bold Condensed';
+  font-size: 20px;
+  padding: 40px;
+}
+
+.home-mobileHotelImg1{
+  margin-top: 40px;
+}
+
+.home-mobileHotelImg2{
+  margin-top: 40px;
+}
+
+.home-mobileContainerPreFooter{
+  background-color: #333333;
+}
+
+.home-mobileTxtPreFooter{
+  font-family: 'Helvetica Neue LT Std 47 Light Condensed';
+  font-size: 20px;
+  margin-left: 20px;
+  padding-top: 20px;
+}
+
+.home-mobileHTPreFooter{
+  font-family: 'Helvetica Neue LT Std 77 Bold Condensed';
+  color: var(--purple);
+  font-size: 35px;
+}
+
+.home-mobileLogoPreFooter{
+  width: 120px;
+  height: auto;
+  margin-left: 20px;
+  margin-bottom: 20px;
 }

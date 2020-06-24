@@ -26,14 +26,24 @@
     unicode-range: U+0-10FFFF;
 }
 
+.home-carouselIndicators li{
+  margin-right: 15px;
+  width: 30px;
+  height: 30px;
+  opacity: 100%;
+  border-radius: 100%;
+  background-color: var(--orange);
+}
+
+.home-carouselIndicators .active{
+    background-color: var(--purple);
+}
+
 /* TYPO */
 .detail {
   font-family: "Helvetica Neue LT Std 57 Condensed";
 }
-#detail-description {
-  font-size: 1.8rem;
-}
-.detail h1, h2, h3, h4, .detail-price p {
+.detail h1, h2, h3, h4, .detail-price p, .detail-titleStar{
   color : var(--orange);
 }
 .detail h1{
@@ -42,11 +52,42 @@
 .detail h2{
   font-size: 4rem;
 }
+.detail-breadcrumbs a {
+  font-size: .7rem;
+  color : var(--orange);
+  font-weight: 700;
+}
+#detail-description .detail-titleStar {
+  font-size: 50px;
+}
+#detail-description .detail-titleStar + p {
+  font-size: 1.6rem;
+}
 .detail-confort h4 {
   font-size: 2rem;
 }
-.detail-titleStar + p {
-  font-size: 1.6rem;
+.detail-ConfortMoreHoverDescription p {
+  color: var(--purple);
+  font-size: 0.95rem;
+}
+.detail-price h3::first-letter {
+  font-size: 2.5rem;
+}
+
+.detail-price h3 + p {
+  font-family: "sirichana";
+  font-size: 2rem;
+}
+.detail-price h3 + p > span {
+  font-size: 3rem;
+}
+.detail-price h3 + p > span > span {
+  font-size: 1.5rem;
+}
+
+.detail-price h3 + p::first-letter {
+  font-size: 2.5rem;
+  font-weight: 600;
 }
 .detail-carouselDescription h4 {
   font-size: 1.5rem;
@@ -55,11 +96,16 @@
 .detail-carouselDescription p {
   font-size: 2rem;
 }
-.detail-breadcrumbs a{
-  font-size: .7rem;
-  color : var(--orange);
-  font-weight: 700;
+footer h5 {
+  font-size: 2.2rem;
+  font-weight: bold;
 }
+footer h5 + p {
+  font-size: 1.8rem;
+  line-height: 1.2rem;
+}
+
+
 /* GENERAL */
 .detail-boxShadow {
   box-shadow: 0px 10px 20px grey;
@@ -67,43 +113,72 @@
 .detail a:hover {
   text-decoration: none;
 }
+
+
 /* BURGER MENU NAV*/
-#detail-burgerMenuDropDown {
-  background-color : var(--orange);
-  height: 1000px;
+#detail-burgerMenu .detail-logoMobile {
   display: none;
 }
-.detail-container {
-  margin-top : -50px;
+#detail-burgerMenu nav {
+  height: 160px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+
+#detail-burgerMenu nav .detail-burgerMenuIcon{
+  padding-left: 2rem;
+  padding-top: 2rem;
+}
+
+/* NAV */
+#detail-burgerMenu .detail-titleStar {
+  font-size: 70px;
+  margin-top: -38px;
+  margin-bottom: -55px;
+  color : var(--orange);
+}
+
+/* BURGER MENU DROPDOWN */
+#detail-burgerMenuDropDown {
+  background-color : var(--orange);
+  height: 100%;
+  padding-bottom: 3rem;
+  display: none;
 }
 #detail-burgerMenuDropDown h2 {
   color: white;
   font-weight: 700;
   font-size: 3rem;
-  }
-#detail-burgerMenu nav {
-  height: 160px;
+  padding: 1rem;
 }
-.detail-BurgerMenuDropDownDescription {
+#detail-burgerMenuDropDown .detail-burgerMenuDropDownContainer {
+  margin-top : -50px;
+}
+#detail-burgerMenuDropDown .detail-BurgerMenuDropDownDescription {
   margin-top: -40px;
 }
-.detail-BurgerMenuDropDownDescription a {
+#detail-burgerMenuDropDown .detail-BurgerMenuDropDownDescription a {
   color: white;
 }
-.detail-BurgerMenuDropDownDescription a {
+#detail-burgerMenuDropDown .detail-BurgerMenuDropDownDescription a {
   text-decoration: none;
 }
 #detail-burgerMenuDropDown h2:hover  {
   font-size: 3.5rem;
 }
-
-
-/* NAV */
-.detail-titleStar {
-  font-size: 70px;
-  margin-top: -38px;
-  margin-bottom: -55px;
-  color : var(--orange);
+.detail-burgerMenuDropDownIcons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.detail-burgerMenuDropDownIconDiscover {
+  padding-bottom: 3rem;
+}
+.detail-burgerMenuDropDownIcon {
+  padding-left: 3rem;
+  padding-top: 3rem;
 }
 
 /* HEADER */
@@ -111,10 +186,9 @@
   background: url('../images/detail/header.jpg');
   height: 692px;
 }
-          /* MODAL */
 
-     /* The Modal (background) */
-     .modal-1 {
+     /* Modal */
+     .detail-bannerModal {
        display: none;
        position: fixed;
        z-index: 1;
@@ -135,8 +209,8 @@
        to {transform:scale(1)}
      }
 
-     /* The Close Button */
-     .close {
+     /*  Close Button */
+     .detail-bannerModalClose {
        position: absolute;
        top: 15px;
        right: 35px;
@@ -146,27 +220,31 @@
        transition: 0.3s;
      }
 
-     .close:hover,
-     .close:focus {
+     .detail-bannerModalClose:hover,
+     .detail-bannerModalClose:focus {
        color: #bbb;
        text-decoration: none;
        cursor: pointer;
      }
 
-     /* 100% Image Width on Smaller Screens */
-     @media only screen and (max-width: 700px){
-       .modal-content {
-         width: 100%;
-       }
-     }
+
 /*SECTION DESCRIPTION */
-
-
+#detail-confortMoreDropDown {
+  display: none;
+}
+#detail-confortMoreDescriptionWifi, #detail-confortMoreDescriptionHairdryer, #detail-confortMoreDescriptionPhone, #detail-confortMoreDescriptionTv,
+#detail-confortMoreDescriptionParabole, #detail-confortMoreDescriptionWindows {
+  display: none;
+}
+.detail-descriptionMobile {
+  display: none;
+}
 #detail-description{
   background-color: white;
   height:870px;
   margin-top: -130px;
   margin-bottom: 10rem;
+  padding-top: 3rem;
 }
 .detail-confortMoreCircle {
   border: 1px solid var(--orange);
@@ -179,26 +257,6 @@
   border: none;
   cursor: url(hand.cur), pointer;
 }
-
-#detail-confortMore {
-  display: none;
-}
-
-#detail-description .detail-titleStar {
-  font-size: 50px;
-
-}
-
-.detail-ConfortMoreHoverDescription p {
-  color: var(--purple);
-  font-size: 0.95rem;
-}
-
-#detail-confortMoreDescriptionWifi, #detail-confortMoreDescriptionHairdryer, #detail-confortMoreDescriptionPhone, #detail-confortMoreDescriptionTv,
-#detail-confortMoreDescriptionParabole, #detail-confortMoreDescriptionWindows {
-  display: none;
-}
-
 #detail-confortMoreDescriptionWifi {
   margin-left: 6.8rem;
 }
@@ -218,10 +276,13 @@
   margin-left: 45rem;
 }
 
-
-
 /* SECTION CHAMBRE */
-
+.detail-priceMobile {
+  display: none;
+}
+.detail-carouselSlide {
+  margin-left: 3rem;
+}
 .detail-carouselDescription {
   top:5rem;
   right:5rem;
@@ -247,34 +308,11 @@
 .detail-accecibiltyPartIcon {
   margin-top: -15px;
 }
-
 .detail-price {
   height: 835px;
   padding-left: 3rem;
   padding-right: 5rem;
 }
-.detail-price h3::first-letter {
-  font-size: 2.5rem;
-}
-
-.detail-price h3 + p {
-  font-family: "sirichana";
-  font-size: 2rem;
-}
-.detail-price h3 + p > span {
-  font-size: 3rem;
-}
-.detail-price h3 + p > span > span {
-  font-size: 1.5rem;
-}
-
-.detail-price h3 + p::first-letter {
-  font-size: 2.5rem;
-  font-weight: 600;
-}
-
-
-
 
 /* SECTION CARTE */
 .detail-map iframe {
@@ -286,9 +324,13 @@
 }
 
 /*FOOTER*/
-
+.footer-mobile{
+  display: none;
+}
 footer {
   background-color: var(--orange);
+}
+.footer-desktop {
   height: 800px;
 }
 .footer-guide, footer button, .footer-network{
@@ -326,15 +368,253 @@ footer hr {
 .button-group {
   width: 20rem;
 }
-footer h5 {
-  font-size: 2.2rem;
-  font-weight: bold;
-}
-footer h5 + p {
-  font-size: 1.8rem;
-  line-height: 1.2rem;
-}
 .footer-network {
   padding-left: 7.8rem;
   font-size: 1.5rem;
+}
+
+
+
+
+
+/* VERSION MOBILE */
+@media (max-width: 576px) {
+
+  /* TYPO */
+  .detail h1{
+    font-size: 2.3rem;
+  }
+  .detail h2{
+    margin-top : 1rem;
+    margin-bottom: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .detail-titleStar {
+    font-size: 30px;
+  }
+  .detail-titleStar + p {
+    font-size: 1.2rem;
+  }
+  .detail-titleStar + p span {
+    display: none;
+  }
+  .detail-confort h4 {
+    display: none;
+  }
+  .detail-confort h4 + img {
+    width: 5rem;
+  }
+
+  /* GENERAL */
+  .detail-boxShadow {
+    box-shadow: 0px 0px 0px grey;
+  }
+
+  /* BURGER MENU NAV*/
+  #detail-burgerMenu .detail-logoDesktop, .detail-breadcrumbs{
+    display: none;
+  }
+  #detail-burgerMenu nav {
+    height: 248px;
+  }
+  #detail-burgerMenu nav .detail-burgerMenuIcon {
+      width : 2.5rem;
+      padding-left: 0.5rem;
+      padding-top: 1rem;
+    }
+  .detail-navMobile {
+    margin-right:1.7rem;
+  }
+  #detail-burgerMenu .detail-logoMobile{
+    display:block;
+    width: 8.5rem;
+    padding-bottom: 1rem;
+    margin: auto;
+  }
+  #detail-burgerMenu .detail-titleStar {
+    font-size: 30px;
+    padding-top: 1.5rem;
+  }
+
+  /* BURGER DROPDOWN */
+  #detail-burgerMenuDropDown {
+    background-color : var(--orange);
+    display: none;
+  }
+  .detail-burgerMenuDropDownLogoWhite {
+    width: 11rem;
+    height: 11rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    margin-left: .8rem;
+  }
+  #detail-burgerMenuDropDown h2 {
+    color: white;
+    font-weight: 700;
+    font-size: 2rem;
+    padding-top: 0;
+    line-height: 1rem;
+    text-align: center;
+  }
+  #detail-burgerMenuDropDown .detail-burgerMenuDropDownContainer {
+    margin-top : 0px;
+  }
+  #detail-burgerMenuDropDown .detail-BurgerMenuDropDownDescription {
+    margin-top: 0px;
+  }
+  #detail-burgerMenuDropDown h2:hover  {
+    font-size: 2.5rem;
+  }
+  .detail-burgerMenuDropDownIcons {
+    position: absolute;
+    top: 5px;
+    right: 0;
+    flex-direction: row-reverse;
+    width: 10rem;
+  }
+  .detail-burgerMenuDropDownIcons img {
+    margin-left: 1rem;
+  }
+  .detail-burgerMenuDropDownIconDiscover {
+    padding-bottom: 0;
+    width: 5rem;
+  }
+  .detail-burgerMenuDropDownIcon {
+    padding-left: 1rem;
+    padding-top: 1rem;
+    width: 5rem;
+  }
+
+  /* HEADER */
+  #detail-banner {
+    background: url('../images/detail/header.jpg') no-repeat;
+    height: 411px;
+    background-size: 350%;
+  }
+
+  /*SECTION DESCRIPTION */
+  .detail-priceMobile {
+    display: block;
+  }
+  .detail-descriptionMobile{
+    display: block;
+  }
+  .detail-descriptionMobile{
+    height:467px;
+  }
+  .detail-descriptionDesktop{
+    display: none;
+  }
+  .detail-confort h4 + img {
+      width: 4rem;
+  }
+
+  /* SECTION CHAMBRE */
+  .detail-carouselSlide {
+    margin-left: 0rem;
+  }
+
+
+  .detail-carouselDescription {
+    display: none;
+  }
+
+  .detail-priceDesktop  {
+    display: none;
+  }
+  .detail-priceMobile {
+    height: 100%;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    color : var(--orange);
+  }
+  .detail-priceMobile  h3::first-letter {
+    font-size:2.5rem;
+  }
+
+  .detail-priceMobile h3, .detail-priceMobile p {
+    font-family: "sirichana";
+  }
+  .detail-priceMobile h3 {
+    font-family: "sirichana";
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-bottom:0px;
+  }
+  .detail-priceMobileTarif{
+    font-size: 2.2rem;
+    margin-bottom:0px;
+  }
+  .detail-priceMobileTarif > span {
+    font-size: 3.5rem;
+  }
+  .detail-priceMobileTarif > span > span {
+    font-size: 2rem;
+  }
+
+  .detail-priceMobile  h3::first-letter, .detail-priceMobileTarif::first-letter {
+    font-size: 3.2rem;
+  }
+
+  .detail-priceMobileBgOrangeTarif {
+    background-color : var(--orange);
+    height: 100px;
+    color: white;
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .detail-priceMobileBgOrangeAdress {
+    background-color : var(--orange);
+    height: 72px;
+    color: white;
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+  }
+
+  .detail-CarouselDescription{
+    line-height: 2rem;
+    color: var(--orange);
+    font-size: 1.5rem;
+    font-family: "sirichana";
+    text-transform: none;
+  }
+
+
+  /*MAP */
+
+  .detail-map {
+    height: 335px;
+  }
+
+  /* FOOTER*/
+  .footer-desktop {
+    display: none;
+  }
+  .footer-mobile {
+    display: block;
+  }
+  .footer-mobile h5{
+    font-size: 2.5rem;
+    font-family: "sirichana";
+    font-weight: bold;
+  }
+  .footer-mobile .button-group {
+    width: 20rem;
+    font-size: .2rem;
+  }
+  .footer-mobile button {
+    font-size: 1.3rem;
+    background-color: white;
+    color: var(--orange);
+  }
+  .footer-network {
+    padding-left: 0rem;
+  }
+
 }
