@@ -78,7 +78,7 @@
   font-weight: 600;
 }
 .detail-carouselDescription h4 {
-  font-size: 1.5rem;
+  font-size:2rem;
   font-weight: 600;
 }
 .detail-carouselDescription p {
@@ -287,6 +287,7 @@ footer .footer-BeauvaisDescriptionDesktop{
   right:5rem;
   width: 567px;
   height: 460px;
+  margin-top: -45rem;
 }
 .detail-carouselDescription p {
     padding-left: 5rem;

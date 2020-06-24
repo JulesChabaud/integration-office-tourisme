@@ -86,7 +86,7 @@ document.getElementById('detail-confortMoreWindows').addEventListener("mouseleav
 
 $(window).bind('resize',function(){
 
-  if (window.innerWidth > 768) {
+  if (window.innerWidth > 500) {
 
     var detailBannerModal = document.getElementById("detail-bannerModal");
     var detailImgBanner = document.getElementById("detail-banner");
@@ -106,24 +106,3 @@ $(window).bind('resize',function(){
   }
 
 });
-
-
-
-/*
-  (function() {
-    var detailAdressCarousel = document.getElementById("detail-CarouselAdress");
-    var memoPositiondetailAdressCarousel = detailAdressCarousel.offsetTop;
-
-    function sticky(){
-      if(window.pageYOffset > memoPositiondetailAdressCarousel){
-        detailAdressCarousel.classList.remove = "position-absolute";
-        detailAdressCarousel.style.position = "fixed";
-        detailAdressCarousel.style.top = 0;
-        detailAdressCarousel.style.zIndex = 999;
-      }
-
-    }
-    // evenement
-    window.addEventListener("scroll", sticky);
-  })()
-*/

@@ -143,7 +143,9 @@
     </div>
   <!-- End carousel chambre -->
   <!-- Description carousel Adresse -->
-    <div class="detail-carouselDescription bg-white position-absolute detail-boxShadow">
+  <div class="d-flex justify-content-end">
+
+    <div class="detail-carouselDescription bg-white position-sticky detail-boxShadow">
         <h4 class="text-center pt-3">CHENAL HÔTEL</h4>
         <p>63 boulevard du Général de Gaulle<br/>
           60000 Beauvais<br/>
@@ -179,6 +181,8 @@
 
       </div>
     </div>
+
+  </div>
     <!-- Description carousel Adresse -->
 
 
