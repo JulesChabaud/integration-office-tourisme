@@ -1,14 +1,16 @@
 <?php include "header.php" ?>
-<link rel="stylesheet" href="assets/css/text.css">
+<!--<link rel="stylesheet" href="assets/css/text.css">-->
 
 <!--SECTION NAVBAR -->
 <div id="detail-burgerMenu">
   <nav class="navbar navbar-light bg-white d-flex align-items-start justify-content-between">
-    <img src="assets/images/detail/burger-menu.png" alt="Burger menu" class="pl-4 pt-5" onclick="openBurgerMenu()"/>
-    <div class="">
+    <img src="assets/images/detail/burger-menu.png" alt="Burger menu" class="detail-burgerMenuIcon" onclick="openBurgerMenu()"/>
+    <div class="detail-navMobile">
+      <!-- logo Mobile -->
+      <img src="assets/images/detail/logo.png" class="detail-logoMobile" alt="Logo">
       <h1 class="text-uppercase text-h1">Aeroport Paris-Beauvais</h1>
     </div>
-    <img src="assets/images/detail/logo.png" alt="Logo">
+    <img src="assets/images/detail/logo.png"  class="detail-logoDesktop" alt="Logo">
   </nav>
 </div>
 

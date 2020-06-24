@@ -1,25 +1,25 @@
-<?php include "header.php" ?>
-<link rel="stylesheet" href="assets/css/home.css">
+
+<!--<link rel="stylesheet" href="assets/css/home.css">-->
 
 
 <div class="home-megaWrapper">
 
   <!--Menu-Burger-->
 
-  <div id="detail-burgerMenu" class="position-absolute">
+  <div id="detail-burgerMenu" class="position-absolute home-burgerMenu">
     <nav class="navbar d-flex align-items-start justify-content-between">
       <img src="assets/images/detail/burger-menu.png" alt="Burger menu" class="pl-4 pt-5" onclick="openBurgerMenu()"/>
     </nav>
   </div>
 
   <div id="detail-burgerMenuDropDown">
-    <img src="assets/images/detail/burger-menu-white.png" class="pt-5 pl-5" alt="Burger menu" onclick="closeBurgerMenu()"/>
+    <img src="assets/images/detail/burger-menu-white.png" class="pt-5 pl-5 home-burgerMenuDropDown" alt="Burger menu" onclick="closeBurgerMenu()"/>
 
-    <div class="container detail-container">
+    <div class="container home-container">
       <div class="d-flex justify-content-center">
         <img src="assets/images/detail/logo-white.png" width="289px" height="294px" alt="Logo">
       </div>
-      <div class="row detail-BurgerMenuDropDownDescription">
+      <div class="row home-BurgerMenuDropDownDescription">
 
         <div class="col-lg-11">
           <a href="#"><h2 class="pt-3">Séjourner</h2></a>
@@ -379,7 +379,3 @@
 
       </div>
 </div>
-
-
-
-<?php include "footer.php" ?>

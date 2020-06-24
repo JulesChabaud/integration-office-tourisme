@@ -1,5 +1,5 @@
 <?php include 'header.php' ?>
-<link rel="stylesheet" href="assets/css/detail.css">
+<!--<link rel="stylesheet" href="assets/css/detail.css">-->
 
 <header class="detail">
 

@@ -68,10 +68,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
     <script type="text/javascript" src="assets/js/main.js"></script>
-    <script type="text/javascript" src="assets/js/text.js"></script>
-    <script type="text/javascript" src="assets/js/list.js"></script>
-    <script type="text/javascript" src="assets/js/detail.js"></script>
-    <script type="text/javascript" src="assets/js/home.js"></script>
 
   </body>
 </html>
