@@ -1,32 +1,5 @@
-/*NAVBAR*/
-#detail-burgerMenuDropDown {
-  background-color : var(--orange);
-  height: 1000px;
-  display: none;
-}
-.detail-container {
-  margin-top : -50px;
-}
-#detail-burgerMenuDropDown h2 {
-  color: white;
-  font-weight: 700;
-  font-size: 3rem;
-}
-#detail-burgerMenu nav {
-  height: 160px;
-}
-.detail-BurgerMenuDropDownDescription {
-  margin-top: -40px;
-}
-.detail-BurgerMenuDropDownDescription a {
-  color: white;
-}
-.detail-BurgerMenuDropDownDescription a {
-  text-decoration: none;
-}
-#detail-burgerMenuDropDown h2:hover  {
-  font-size: 3.5rem;
-}
+/* PAGE TEXT - AEROPORT PARIS BEAUVAIS - LAURINE */
+
 .text-h1 {
   color: var(--orange);
   display: flex;
@@ -122,10 +95,6 @@
 .text-fontWhite {
   color: white;
 }
-.text-imgServices {
-
-
-}
 .text-imgServices img{
   width: 100%;
 }
@@ -136,10 +105,9 @@
   margin-left: 160px;
   margin-right: 160px;
   background-color: white;
+  box-shadow: -2px 3px 8px #555;
   border-top: 10px solid #c9c8c9;
-  border-right: 10px solid #c9c8c9;
-  border-bottom: 2px solid var(--black);
-  border-left: 1px solid var(--black);
+  border-right: 8px solid #c9c8c9;
   padding-top: 3%;
   padding-bottom: 3%;
   padding-left: 100px;
@@ -159,7 +127,6 @@
   padding-left: 150px;
   padding-right: 150px;
   margin-top: 80px;
-
 }
 .text-servicesWifiIcon {
   padding-right: 80px;
@@ -177,10 +144,9 @@
   width: 50%;
   margin: auto;
   background-color: white;
+  box-shadow: -2px 3px 8px #555;
   border-top: 10px solid #c9c8c9;
-  border-right: 10px solid #c9c8c9;
-  border-bottom: 2px solid var(--black);
-  border-left: 1px solid var(--black);
+  border-right: 8px solid #c9c8c9;
   padding-top: 2%;
   padding-bottom: 2%;
   padding-left: 80px;
@@ -227,6 +193,9 @@
   position: relative;
   bottom: 62px;
 }
+.text-carousselPoint {
+  display: none;
+}
 
 /*SECTION COMPAGNIES*/
 .text-compagnies {
@@ -247,7 +216,6 @@
   position: relative;
   bottom: 22px;
   left: 30px;
-
 }
 .text-logoCompagnies {
   padding-left: 160px;
@@ -347,7 +315,6 @@
 
 /*VERSION MOBILE*/
 @media (max-width: 767px){
-/*SECTION NAVBAR*/
 
 /*SECTION BANNER*/
 .text-containerBanner {
@@ -478,6 +445,10 @@
 }
 .text-transport {
   height: 500px;
+}
+.text-carousselPoint {
+  display: flex;
+  margin-left: 28%;
 }
 
 /*SECTION COMPAGNIES*/
