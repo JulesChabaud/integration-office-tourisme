@@ -19,48 +19,21 @@
       <img src="assets/images/detail/logo.png" class="detail-logoDesktop" alt="Logo">
     </nav>
   </div>
-<!-- Dropdown Menu -->
-  <div id="detail-burgerMenuDropDown">
-    <img src="assets/images/detail/burger-menu-white.png" class="detail-burgerMenuDropDownIcon" alt="Burger menu" onclick="closeBurgerMenu()"/>
-    <div class="container detail-burgerMenuDropDownContainer">
-      <div class="d-flex justify-content-center">
-        <img src="assets/images/detail/logo-white.png" width="289px" height="294px" class="detail-burgerMenuDropDownLogoWhite" alt="Logo">
-      </div>
-      <div class="row detail-BurgerMenuDropDownDescription">
-        <div class="col-lg-11">
-          <a href="#"><h2>Séjourner</h2></a>
-          <a href="#"><h2>Manger</h2></a>
-          <a href="#"><h2>Idée Week-end</h2></a>
-          <a href="#"><h2>Carte intéractive</h2></a>
-          <a href="#"><h2>Groupe</h2></a>
-          <a href="#"><h2>Pratique</h2></a>
-          <a href="#"><h2>Boutique en ligne</h2></a>
-          <a href="#"><h2>Découvrir</h2></a>
-        </div>
-        <div class="col-lg-1 detail-burgerMenuDropDownIcons">
-          <img src="assets/images/detail/meteo-icon.png" width="80px" alt="Icone méteo">
-          <img src="assets/images/detail/location-icon.png" width="50px" alt="Icone location">
-          <img src="assets/images/detail/discover-icon.png" class="detail-burgerMenuDropDownIconDiscover" width="60px" alt="Icon à découvrir">
-        </div>
-      </div>
-    </div>
-  </div>
 
-
-  <a href="#">
+  <a href="#" class="detail-modalLink">
     <div id="detail-banner"></div>
   </a>
 
-  <div id="myModal" class="detail-bannerModal">
+  <div id="detail-bannerModal">
     <span class="detail-bannerModalClose">&times;</span>
-      <img src="assets/images/detail/banner-modal.jpg" class="img-fluid img01" alt="banner" />
+      <img src="assets/images/detail/banner-modal.jpg" class="img-fluid detail-modalImg" alt="banner" />
   </div>
 </header>
 
 <main class="detail">
   <section class="d-flex justify-content-center">
     <!-- Section Description Desktop -->
-    <div id="detail-description" class="container detail-descriptionDesktop detail-boxShadow">
+    <div id="detail-description" class="container detail-descriptionDesktop detail-boxShadow pb-5">
       <h2 class="text-center">CHENAL HÔTEL</h2>
       <p class="detail-titleStar text-center">*<span class="mx-3">*</span>*</p>
       <p class="px-4">L’Hôtel Le Chenal*** vous reçoit chaleureusement à Beauvais, dans le département de l’Oise.
@@ -143,21 +116,25 @@
     <div class="detail-carousel">
       <div class="row">
         <div class="col-lg-11">
-          <ol class="carousel-indicators home-carouselIndicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active ind-active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1" class="ind-inactive"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2" class="ind-inactive"></li>
+          <ol class="carousel-indicators detail-carouselIndicators">
+            <li data-target="#detail-carouselIndicators" data-slide-to="0" class="active">1</li>
+            <li data-target="#detail-carouselIndicators" data-slide-to="1" class="active">2</li>
+            <li data-target="#detail-carouselIndicators" data-slide-to="2" class="active">3</li>
+            <li data-target="#detail-carouselIndicators" data-slide-to="2" class="active">4</li>
           </ol>
-          <div class="carousel slide detail-carouselSlide" data-ride="carousel">
+          <div class="carousel slide detail-carouselSlide" data-ride="carousel" id="detail-carouselIndicators">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                  <img src="assets/images/detail/chambre1.jpg" class="img-fluid" alt="">
+                  <img src="assets/images/detail/chambre1.jpg" class="img-fluid" alt="chambre1">
               </div>
               <div class="carousel-item">
-                <img src="assets/images/detail/chambre2.jpg" class="img-fluid" alt="">
+                <img src="assets/images/detail/chambre2.jpg" class="img-fluid" alt="chambre2">
               </div>
               <div class="carousel-item">
-                <img src="assets/images/detail/chambre1.jpg" class="img-fluid" alt="">
+                <img src="assets/images/detail/chambre1.jpg" class="img-fluid" alt="chambre1">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/detail/chambre2.jpg" class="img-fluid" alt="chambre2">
               </div>
             </div>
           </div>
@@ -362,7 +339,7 @@
           <div class="row mt-3">
             <div class="col-lg-8">
               <a href="#"><h3>chambre confort</h3></a>
-              <p>Tarif à partir de : <span>72 <span>€</span></span></p>
+              <p class="detail-priceDesktopTarif">Tarif à partir de : <span>72 <span>€</span></span></p>
             </div>
             <div class="col-lg-2">
               <a data-toggle="modal" data-target=".detail-modalChambre1"><img src="assets/images/detail/chambreconfort.jpg" alt=""></a>
@@ -371,7 +348,7 @@
           <div class="row mt-4">
             <div class="col-lg-8">
               <a href="#"><h3>Chambre Supérieur</h3></a>
-              <p>Tarif à partir de : <span>72 <span>€</span></span></p>
+              <p class="detail-priceDesktopTarif">Tarif à partir de : <span>72 <span>€</span></span></p>
             </div>
             <div class="col-lg-2">
               <a data-toggle="modal" data-target=".detail-modalChambre2"><img src="assets/images/detail/chambre-double.jpg" alt=""></a>
@@ -380,7 +357,7 @@
           <div class="row mt-4">
             <div class="col-lg-8">
               <a href="#"><h3>Chambre familliale</h3></a>
-              <p>Tarif à partir de : <span>82 <span>€</span></span></p>
+              <p class="detail-priceDesktopTarif">Tarif à partir de : <span>82 <span>€</span></span></p>
             </div>
             <div class="col-lg-2">
               <a data-toggle="modal" data-target=".detail-modalChambre3"><img src="assets/images/detail/chambrefamilliale.jpg" alt=""></a>
@@ -389,7 +366,7 @@
           <div class="row mt-4">
             <div class="col-lg-8">
               <a href="#"><h3>Chambre triple</h3></a>
-              <p>Tarif à partir de : <span>119<span>€</span></span></p>
+              <p class="detail-priceDesktopTarif">Tarif à partir de : <span>119<span>€</span></span></p>
             </div>
             <div class="col-lg-2">
               <a data-toggle="modal" data-target=".detail-modalChambre4"><img src="assets/images/detail/chambremini1.jpg" alt=""></a>
@@ -422,7 +399,7 @@
       <div class="">
         <a data-toggle="modal" data-target=".detail-modalChambre4"><img src="assets/images/detail/chambremini1-mobile.jpg" class="img-fluid" alt=""></a>
         <a href="#"><h3>Chambre triple</h3></a>
-        <p class="detail-priceMobileTarif">Tarif à partir de : <span>119<span>€</span></span></p>
+        <p class="detail-priceMobileTarif">Tarif à partir de : <span>119 <span>€</span></span></p>
       </div>
       <div class="detail-priceMobileBgOrangeAdress">
           <p class="mt-2">CHENAL HOTEL</p>
@@ -443,68 +420,6 @@
   </section>
   <!--END  MAP GOOGLE -->
 
-  <footer>
-    <!-- footer Desktop -->
-    <div class="container-fluid footer-desktop">
-      <div class="row text-white">
-        <div class="col-lg-5 px-5 text-center mt-3">
-            <img src="assets/images/detail/logo-white.png" width="230px" alt="Logo">
-            <div class="row mt-2">
-              <div class="offset-2 col-8 d-flex flex-column">
-                <p class="text-left">La ville de beauvais situé au coeur de sa régon historique
-                  la picardie, est célèbre pour sa cathedrale gothique et ses
-                  illuminations. Notre ville offre de nombreux parcours de
-                  visite, commerces et sites a visiter.</p>
-                </div>
-                <div class="button-group mt-2 mx-auto col-lg-7 d-flex flex-column">
-                  <button type="button" class="text-uppercase px-5 py-3">nos bureaux informations</button>
-                  <button type="button" class="text-uppercase px-5 py-3 mt-5" >nous contactez</button>
-                </div>
-              </div>
-              <p class="text-left pt-4 footer-network text-uppercase">suivez-nous
-                <img src="assets/images/detail/twitter-icon.png" class="ml-4" width="22px" alt="">
-                <img src="assets/images/detail/icon-fb.png" class="mx-2" width="22px" alt="">
-                <img src="assets/images/detail/icon-instagram.png" width="22px"  alt="">
-              </p>
-        </div>
-        <div class="col-lg-2 d-flex flex-column justify-content-center text-center footer-guide mt-5">
-          <h5 class="text-uppercase">Laissez vous guidez</h5>
-          <p>Consultez nos brochures
-              détaillées pour facilter la
-              découverte de notre ville</p>
-
-          <img src="assets/images/detail/couverture-flyers.jpg" width="150px" height="250px" class="mx-auto mt-5">
-          <button type="button" class="text-uppercase px-2 py-3 mt-5 footer-btn-brochure" name="button">Nos brochures</button>
-        </div>
-
-        <div class="offset-1 col-lg-4 d-flex flex-column justify-content-center footer-lign">
-          <button type="button" class="text-uppercase px-5 py-3 footer-btn-newletter mt-4 mb-5" name="button">S'inscrire à la newletter</button>
-          <img src="assets/images/detail/carte-beauvais-footer.png" width="400px" height="400px" class="mx-auto" alt="">
-        </div>
-
-      </div>
-    </div>
-    <!-- END footer Desktop -->
-    <!-- footer MOBILE -->
-    <div class="container-fluid footer-mobile py-5 text-white text-center">
-       <img src="assets/images/detail/logo-white.png" width="190px" alt="Logo">
-       <h5 class="text-uppercase">Laissez vous guidez</h5>
-       <img src="assets/images/detail/couverture-flyers.jpg" width="150px" height="250px" class="mx-auto">
-       <div class="row">
-         <div class="button-group mt-2 col-lg-6 d-flex flex-column">
-           <button type="button" class="text-uppercase px-2 py-3 my-3" name="button">Nos brochures</button>
-           <button type="button" class="text-uppercase px-5 py-3 my-3">Informations</button>
-           <button type="button" class="text-uppercase px-5 py-3 my-3" >nous contactez</button>
-           <button type="button" class="text-uppercase px-5 py-3 my-3" name="button">S'inscrire à la newletter</button>
-         </div>
-       </div>
-       <p class="pt-4 footer-network text-uppercase">suivez-nous</p>
-       <img src="assets/images/detail/icon-instagram.png" class="ml-4" width="30px"  alt="">
-       <img src="assets/images/detail/icon-fb.png" class="mx-5" width="30x" alt="">
-       <img src="assets/images/detail/twitter-icon.png" width="30px" alt="">
-      </div>
-   <!-- END footer MOBILE -->
-  </footer>
 </main>
 
 <?php include 'footer.php' ?>

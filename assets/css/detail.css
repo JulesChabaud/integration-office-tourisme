@@ -26,18 +26,6 @@
     unicode-range: U+0-10FFFF;
 }
 
-.home-carouselIndicators li{
-  margin-right: 15px;
-  width: 30px;
-  height: 30px;
-  opacity: 100%;
-  border-radius: 100%;
-  background-color: var(--orange);
-}
-
-.home-carouselIndicators .active{
-    background-color: var(--purple);
-}
 
 /* TYPO */
 .detail {
@@ -74,18 +62,18 @@
   font-size: 2.5rem;
 }
 
-.detail-price h3 + p {
+.detail-price .detail-priceDesktopTarif {
   font-family: "sirichana";
   font-size: 2rem;
 }
-.detail-price h3 + p > span {
+.detail-price .detail-priceDesktopTarif > span {
   font-size: 3rem;
 }
-.detail-price h3 + p > span > span {
+.detail-price .detail-priceDesktopTarif > span > span {
   font-size: 1.5rem;
 }
 
-.detail-price h3 + p::first-letter {
+.detail-price .detail-priceDesktopTarif::first-letter {
   font-size: 2.5rem;
   font-weight: 600;
 }
@@ -105,7 +93,6 @@ footer h5 + p {
   line-height: 1.2rem;
 }
 
-
 /* GENERAL */
 .detail-boxShadow {
   box-shadow: 0px 10px 20px grey;
@@ -114,13 +101,11 @@ footer h5 + p {
   text-decoration: none;
 }
 
-
 /* BURGER MENU NAV*/
 #detail-burgerMenu .detail-logoMobile {
   display: none;
 }
 #detail-burgerMenu nav {
-  height: 160px;
   display: flex;
   align-items: start;
   justify-content: space-between;
@@ -142,7 +127,6 @@ footer h5 + p {
 /* BURGER MENU DROPDOWN */
 #detail-burgerMenuDropDown {
   background-color : var(--orange);
-  height: 100%;
   padding-bottom: 3rem;
   display: none;
 }
@@ -188,7 +172,7 @@ footer h5 + p {
 }
 
      /* Modal */
-     .detail-bannerModal {
+     #detail-bannerModal{
        display: none;
        position: fixed;
        z-index: 1;
@@ -241,7 +225,6 @@ footer h5 + p {
 }
 #detail-description{
   background-color: white;
-  height:870px;
   margin-top: -130px;
   margin-bottom: 10rem;
   padding-top: 3rem;
@@ -279,6 +262,19 @@ footer h5 + p {
 /* SECTION CHAMBRE */
 .detail-priceMobile {
   display: none;
+}
+.detail-carouselIndicators li{
+  margin-right: 15px;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  text-indent: 0px;
+  text-align: center;
+  color: #000;
+}
+
+.detail-carouselIndicators .active{
+    border: 3px solid var(--purple)
 }
 .detail-carouselSlide {
   margin-left: 3rem;
@@ -330,15 +326,12 @@ footer h5 + p {
 footer {
   background-color: var(--orange);
 }
-.footer-desktop {
-  height: 800px;
-}
 .footer-guide, footer button, .footer-network{
   font-family: "sirichana";
   font-weight: bold;
 }
 footer button{
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   border : 2px solid #b9532b;
   border-radius: .1rem;
   background-color: transparent;
@@ -372,7 +365,6 @@ footer hr {
   padding-left: 7.8rem;
   font-size: 1.5rem;
 }
-
 
 
 
@@ -424,13 +416,19 @@ footer hr {
       padding-top: 1rem;
     }
   .detail-navMobile {
-    margin-right:1.7rem;
+    position: absolute;
+    top: 1rem;
+    left: 6rem;
+  }
+  .detail-navMobile h1 {
+    padding-top: 1rem;
+  }
+  .detail-navMobile h1, .detail-navMobile  .detail-titleStar{
+    margin-left: -2.5rem;
   }
   #detail-burgerMenu .detail-logoMobile{
     display:block;
     width: 8.5rem;
-    padding-bottom: 1rem;
-    margin: auto;
   }
   #detail-burgerMenu .detail-titleStar {
     font-size: 30px;
@@ -511,17 +509,23 @@ footer hr {
   }
 
   /* SECTION CHAMBRE */
-  .detail-carouselSlide {
-    margin-left: 0rem;
-  }
-
-
   .detail-carouselDescription {
     display: none;
   }
-
   .detail-priceDesktop  {
     display: none;
+  }
+  .detail-carouselIndicators li{
+    width: 20px;
+    height: 20px;
+    background-color: var(--orange);
+    font-size: .8rem;
+  }
+  .detail-carouselIndicators .active{
+      border: none;
+  }
+  .detail-carouselSlide {
+    margin-left: 0rem;
   }
   .detail-priceMobile {
     height: 100%;
@@ -580,14 +584,13 @@ footer hr {
   .detail-CarouselDescription{
     line-height: 2rem;
     color: var(--orange);
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-family: "sirichana";
     text-transform: none;
   }
 
 
   /*MAP */
-
   .detail-map {
     height: 335px;
   }
@@ -600,7 +603,7 @@ footer hr {
     display: block;
   }
   .footer-mobile h5{
-    font-size: 2.5rem;
+    font-size: 2.7rem;
     font-family: "sirichana";
     font-weight: bold;
   }
@@ -615,6 +618,7 @@ footer hr {
   }
   .footer-network {
     padding-left: 0rem;
+    font-size: 2rem;
   }
 
 }

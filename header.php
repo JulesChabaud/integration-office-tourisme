@@ -9,3 +9,29 @@
     <title>Office de tourisme Beauvais</title>
   </head>
     <body>
+      <!-- Dropdown Menu -->
+        <div id="detail-burgerMenuDropDown">
+          <img src="assets/images/detail/burger-menu-white.png" class="detail-burgerMenuDropDownIcon" alt="Burger menu" onclick="closeBurgerMenu()"/>
+          <div class="container detail-burgerMenuDropDownContainer">
+            <div class="d-flex justify-content-center">
+              <img src="assets/images/detail/logo-white.png" width="289px" height="294px" class="detail-burgerMenuDropDownLogoWhite" alt="Logo">
+            </div>
+            <div class="row detail-BurgerMenuDropDownDescription">
+              <div class="col-lg-11">
+                <a href="#"><h2>Séjourner</h2></a>
+                <a href="#"><h2>Manger</h2></a>
+                <a href="#"><h2>Idée Week-end</h2></a>
+                <a href="#"><h2>Carte intéractive</h2></a>
+                <a href="#"><h2>Groupe</h2></a>
+                <a href="#"><h2>Pratique</h2></a>
+                <a href="#"><h2>Boutique en ligne</h2></a>
+                <a href="#"><h2>Découvrir</h2></a>
+              </div>
+              <div class="col-lg-1 detail-burgerMenuDropDownIcons">
+                <img src="assets/images/detail/meteo-icon.png" width="80px" alt="Icone méteo">
+                <img src="assets/images/detail/location-icon.png" width="50px" alt="Icone location">
+                <img src="assets/images/detail/discover-icon.png" class="detail-burgerMenuDropDownIconDiscover" width="60px" alt="Icon à découvrir">
+              </div>
+            </div>
+          </div>
+        </div>
