@@ -43,9 +43,9 @@ src: local('Helvetica Neue LT Std 77 Bold Condensed'), url('assets/fonts/Helveti
 
 
 /* BURGER MENU NAV*/
-/*.home-burgerMenuDropDown {
-  position: relative;  z-index: 0;
-}*/
+.home-burgerMenuDropDown {
+  position: relative;  z-index: -2;
+}
 .home-container {
   margin-top : -50px;
 }
@@ -1455,3 +1455,5 @@ footer hr {
   margin-left: 34%;
   margin-bottom: 75px;
 }
+
+/************************************************************ LIST **********************************************************/

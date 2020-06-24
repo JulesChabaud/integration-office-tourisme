@@ -3,12 +3,14 @@
 
   <!--Header-->
   <header id="list-header">
+    <div id="detail-burgerMenu">
+
 
     <!--Burger menu-->
-    <div id="list-burgerMenu">
+    <div id="list-burgerMenu"  >
         <img src="assets/images/list/burger-menu.png" alt="Burger menu" class="pl-4 pt-4 text-white" onclick="openBurgerMenu()"/>
     </div>
-
+  </div>
     <!--Choix langues de la page-->
     <div id="list-choixLangues" class="pr-3 pt-1">
       <ul>
@@ -351,13 +353,5 @@
 
     </div>
   </section>
-
-  <!--résultats RECHERCHE-->
-  <section>
-
-  </section>
-
-
-
 
 <?php include 'footer.php' ?>
