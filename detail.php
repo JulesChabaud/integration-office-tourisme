@@ -10,13 +10,13 @@
       <img src="assets/images/detail/burger-menu.png" alt="Burger menu" class="detail-burgerMenuIcon" onclick="openBurgerMenu()"/>
       <div class="text-center detail-navMobile">
         <!-- logo Mobile -->
-        <img src="assets/images/detail/logo.png" class="detail-logoMobile" alt="Logo">
+        <a href="index.php"><img src="assets/images/detail/logo.png" class="detail-logoMobile" alt="Logo"></a>
         <h1>CHENAL HÔTEL</h1>
         <p class="detail-titleStar">*<span class="mx-2">*</span>*</p>
         <p class="detail-breadcrumbs text-uppercase"><a href="home.php">Accueil  > </a><a href="#">Séjourner > </a><a href="#">Hôtels > </a><a href="#" class="text-dark">Chenal Hotel</a></p>
       </div>
       <!-- Logo Desktop -->
-      <img src="assets/images/detail/logo.png" class="detail-logoDesktop" alt="Logo">
+      <a href="index.php"><img src="assets/images/detail/logo.png" class="detail-logoDesktop" alt="Logo"></a>
     </nav>
   </div>
 

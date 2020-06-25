@@ -7,10 +7,10 @@
     <img src="assets/images/detail/burger-menu.png" alt="Burger menu" class="detail-burgerMenuIcon" onclick="openBurgerMenu()"/>
     <div class="detail-navMobile">
       <!-- logo Mobile -->
-      <img src="assets/images/detail/logo.png" class="detail-logoMobile" alt="Logo">
+      <a href="index.php"><img src="assets/images/detail/logo.png" class="detail-logoMobile" alt="Logo"></a>
       <h1 class="text-uppercase text-h1">Aeroport Paris-Beauvais</h1>
     </div>
-    <img src="assets/images/detail/logo.png"  class="detail-logoDesktop" alt="Logo">
+    <a href="index.php"><img src="assets/images/detail/logo.png"  class="detail-logoDesktop" alt="Logo"></a>
   </nav>
 </div>
 
@@ -37,7 +37,7 @@
     </div>
 
     <div class="text-breadcrumbs">
-      <a href="home.php"><h3 class="text-uppercase text-fontOrange"><span class="font-weight-bold">A</span>ccueil ></h3></a>
+      <a href="index.php"><h3 class="text-uppercase text-fontOrange"><span class="font-weight-bold">A</span>ccueil ></h3></a>
       <a href="#"><h3 class="text-uppercase text-fontOrange"><span class="font-weight-bold">A</span>éroport de Paris Beauvais ></h3></a>
       <a href="#"><h3 class="text-uppercase text-fontBlack"><span class="font-weight-bold">P</span>aris Beauvais</h3></a>
     </div>

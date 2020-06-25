@@ -22,7 +22,7 @@
 
     <!--Logo VISIT BEAUVAIS-->
     <div id="list-logoBeauvais">
-      <img src="assets/images/list/logo-beauvais.png" alt="logo beauvais blanc">
+      <a href="index.php"><img src="assets/images/list/logo-beauvais.png" alt="logo beauvais blanc"></a>
     </div>
 
     <!--Texte "Chambres d'hôtes"-->

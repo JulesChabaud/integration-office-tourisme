@@ -48,7 +48,7 @@
 
   <!--Logo-Head-->
   <div class="home-logoBan position-absolute">
-    <img src="assets/images/home/Logo-beauvais.png">
+    <a href="index.php"><img src="assets/images/home/Logo-beauvais.png"></a>
   </div>
   <!--Dropdown-Langage-->
   <div class="home-langagePicker position-absolute">
