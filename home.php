@@ -2,8 +2,6 @@
 <!--<link rel="stylesheet" href="assets/css/home.css">-->
 
 
-
-
   <!--Menu-Burger-->
 
   <div id="detail-burgerMenu" class="position-absolute home-burgerMenu">
@@ -13,37 +11,6 @@
   </div>
 
   <div class="home-megaWrapper">
-<!--
-  <div id="detail-burgerMenuDropDown">
-    <img src="assets/images/detail/burger-menu-white.png" class="pt-5 pl-5 home-burgerMenuDropDown" alt="Burger menu" onclick="closeBurgerMenu()"/>
-
-    <div class="container home-container">
-      <div class="d-flex justify-content-center">
-        <img src="assets/images/detail/logo-white.png" width="289px" height="294px" alt="Logo">
-      </div>
-      <div class="row home-BurgerMenuDropDownDescription">
-
-        <div class="col-lg-11">
-          <a href="#"><h2 class="pt-3">Séjourner</h2></a>
-          <a href="#"><h2 class="pt-3">Manger</h2></a>
-          <a href="#"><h2 class="pt-3">Idée Week-end</h2></a>
-          <a href="#"><h2 class="pt-3">Carte intéractive</h2></a>
-          <a href="#"><h2 class="pt-3">Groupe</h2></a>
-          <a href="#"><h2 class="pt-3">Pratique</h2></a>
-          <a href="#"><h2 class="pt-3">Boutique en ligne</h2></a>
-          <a href="#"><h2 class="pt-3">Découvrir</h2></a>
-        </div>
-
-        <div class="col-lg-1 d-flex align-items-center justify-content-between flex-column">
-          <img src="assets/images/detail/meteo-icon.png" width="80px" alt="Icone méteo">
-          <img src="assets/images/detail/location-icon.png" width="50px" alt="Icone location">
-          <img src="assets/images/detail/discover-icon.png" class="pb-5" width="60px" alt="Icon à découvrir">
-        </div>
-
-      </div>
-    </div>
-  </div>
--->
   <!--Carou-Head-->
   <div id="carouselExampleIndicators1" class="carousel slide home-carouselHeader " data-ride="carousel">
 

@@ -467,6 +467,9 @@ footer .footer-BeauvaisDescriptionDesktop{
   background-color : var(--orange);
   padding-bottom: 3rem;
   display: none;
+  z-index :999;
+  position: absolute;
+  width: 100%;
 }
 #detail-burgerMenuDropDown h2 {
   color: white;
@@ -1296,7 +1299,12 @@ footer hr {
   display: none;
 }
 .text-h1 {
-  font-size: 1.3rem;
+  z-index: 500;
+  position: absolute;
+  font-size: 1rem;
+  margin-left: -1rem !important;
+  width: 15rem;
+
 }
 .text-breadcrumbs {
   display: none;

@@ -1,5 +1,5 @@
-<?php include 'header.php' ?>
-  <link rel="stylesheet" href="assets/css/list.css">
+<?php include "header.php" ?>
+<link rel="stylesheet" href="assets/css/list.css">
 
   <!--Header-->
   <header id="list-header">
@@ -48,7 +48,7 @@
 
         <!--filtre CLASSEMENT-->
         <div class="dropdown list-dropDown-space">
-         <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">CLASSEMENT
+         <button class="btn btn-default dropdown-toggle " type="button" id="menu1" data-toggle="dropdown">CLASSEMENT
          <span class="caret"></span></button>
          <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
            <li><button class="btn" onclick="filterSelection('Meilleures notes et avis')">Meilleures notes et avis</button></li>
@@ -59,9 +59,9 @@
 
         <!--filtre SECTEUR-->
         <div class="dropdown list-dropDown-space">
-         <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">SECTEUR
+         <button class="btn btn-default dropdown-toggle" type="button" id="menu2" data-toggle="dropdown">SECTEUR
          <span class="caret"></span></button>
-         <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+         <ul class="dropdown-menu" role="menu" aria-labelledby="menu2">
            <li><button class="btn" onclick="filterSelection('Centre ville')">Argentine</button></li>
            <li><button class="btn" onclick="filterSelection('Saint Jean')">Saint-Jean</button></li>
            <li><button class="btn" onclick="filterSelection('Saint Lucien')">Soie-Vauban</button></li>
