@@ -56,7 +56,7 @@
   </div>
 
   <!--Mini-Slider-Head-->
-  <div id="carouselExampleControls" class="carousel slide home-miniSliderImg position-absolute" data-ride="carousel">
+  <div id="carouselExampleControls" class="carousel slide home-miniSliderImg" data-ride="carousel">
     <div class="carousel-inner home-innerCarouselMiniSlider">
       <div class="carousel-item active">
         <img class="" src="assets/images/home/minislider.png" alt="First slide">

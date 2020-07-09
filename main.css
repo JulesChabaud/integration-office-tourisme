@@ -85,14 +85,14 @@ src: local('Helvetica Neue LT Std 77 Bold Condensed'), url('assets/fonts/Helveti
 }
 /*--Dropdown-Langage--*/
 .home-langagePicker{
-  width: 115px;  height: auto;  top: 30px;  margin-left: auto;  margin-right: auto;  left: 105rem;  right: 0;  text-align: center;
+  width: 115px;  height: auto;  top: 2vh;  margin-left: auto;  margin-right: auto;  left: 90vw;  right: 0;  text-align: center;
 }
 /*--Mini-slider-Header--*/
 .home-miniSliderImg{
-  overflow: hidden;  width:320px;  top: 40rem;  right: 20rem;
+  overflow: hidden;  width:320px;  top: -40vh;  left: 75vw;
 }
 .home-innerCarouselMiniSlider{
-  padding-left: 60px;  padding-right: 60px;
+  padding-left: 4vw;  padding-right: 1vw;
 }
 .home-miniSliderControlPrev{
   width: 50px;  height: auto;  left: 0px;  top: 50px;  opacity: 100%;
@@ -129,7 +129,7 @@ src: local('Helvetica Neue LT Std 77 Bold Condensed'), url('assets/fonts/Helveti
   margin-top: 40px;
 }
 .home-agendaSlider{
-  top: 28rem;  left: 74rem;  width: 515px;  height: 450px;  float: right;
+  top: 40vh;  left: 60vw;  width: 515px;  height: 25vw;  float: right;
 }
 .home-listeAgenda {
   text-align: center;
@@ -173,17 +173,17 @@ src: local('Helvetica Neue LT Std 77 Bold Condensed'), url('assets/fonts/Helveti
   margin-top: 250px;
 }
 .home-imgSlider1{
-  width: 382px;  height: 513px;  box-shadow: 0px 5px 10px 1px rgba(238, 0, 255, .2);
+  width: 20vw;  height: 60vh;  box-shadow: 0px 5px 10px 1px rgba(238, 0, 255, .2);
 }
 .home-imgSlider2{
-  width: 860px;  height: 513px;  box-shadow: 0px 5px 10px 1px rgba(238, 0, 255, .2);
+  width: 45vw;  height: 60vh;  box-shadow: 0px 5px 10px 1px rgba(238, 0, 255, .2);
 }
 .home-imgSlider3{
-  width: 382px;  height: 513px;  box-shadow: 0px 5px 10px 1px rgba(238, 0, 255, .2);
+  width: 20vw;  height: 60vh;  box-shadow: 0px 5px 10px 1px rgba(238, 0, 255, .2);
 }
 
 .home-acordeonForfait{
-  width: 1903px;  height: auto;
+  width: 100%;  height: auto;
 }
 
 /*--Container-Activités--*/
@@ -207,7 +207,7 @@ src: local('Helvetica Neue LT Std 77 Bold Condensed'), url('assets/fonts/Helveti
 
 /*--Social-Wall--*/
 .home-containerSocialWall{
-  background-color: #d0a1d0;  padding: 50px;  width: 100%;  height: 1000px;
+  background-color: #d0a1d0; width: 100%;  height: auto;
 }
 
 /* BURGER MENU NAV*/
