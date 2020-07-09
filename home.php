@@ -138,11 +138,11 @@
           <img class="" src="assets/images/home/LA-MALADRERIE-A-LA-LANTERNE.png" alt="Third slide">
         </div>
       </div>
-      <a class="carousel-control-prev home-agendaSliderControlPrev position-absolute" href="#carouselExampleControls2" role="button" data-slide="prev">
+      <a class="carousel-control-prev home-agendaSliderControlPrev" href="#carouselExampleControls2" role="button" data-slide="prev">
         <img class="carousel-control-next-icon home-carouselControlIconAgenda" aria-hidden="true" src="assets/images/home/fleche-gauche.png" alt="fleche gauche">
         <span class="sr-only">Previous</span>
       </a>
-      <a class="carousel-control-next home-agendaSliderControlnext position-absolute" href="#carouselExampleControls2" role="button" data-slide="next">
+      <a class="carousel-control-next home-agendaSliderControlnext" href="#carouselExampleControls2" role="button" data-slide="next">
         <img class="carousel-control-next-icon home-carouselControlIconAgenda" aria-hidden="true" src="assets/images/home/fleche-droite.png" alt="fleche droite">
         <span class="sr-only">Next</span>
       </a>

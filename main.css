@@ -129,7 +129,7 @@ src: local('Helvetica Neue LT Std 77 Bold Condensed'), url('assets/fonts/Helveti
   margin-top: 40px;
 }
 .home-agendaSlider{
-  top: 40vh;  left: 60vw;  width: 515px;  height: 25vw;  float: right;
+  top: 60vh;  left: 60vw;  width: 515px;  height: 25vw;  float: right;
 }
 .home-listeAgenda {
   text-align: center;
@@ -147,10 +147,10 @@ src: local('Helvetica Neue LT Std 77 Bold Condensed'), url('assets/fonts/Helveti
   width: 50px;  height: auto;
 }
 .home-agendaSliderControlnext{
-  top: 26rem;  right: 10rem;  opacity: 100%;
+  top: 62vh;  right: 8vw;  opacity: 100%;
 }
 .home-agendaSliderControlPrev{
-  top: 26rem;  left: 10rem;  opacity: 100%;
+  top: 62vh;  left: 8vw;  opacity: 100%;
 }
 
 /*--Container-Visit--*/
@@ -206,7 +206,7 @@ src: local('Helvetica Neue LT Std 77 Bold Condensed'), url('assets/fonts/Helveti
 }
 
 /*--Social-Wall--*/
-.home-containerSocialWall{
+.home-imgSocialWall{
   background-color: #d0a1d0; width: 100%;  height: auto;
 }
 
